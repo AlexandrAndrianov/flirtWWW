@@ -28,7 +28,7 @@
 				    <div>
 						<a href="vhod.php">Вход</a>
 						<a href=""><img src="footer/vc3.png"/></a>
-						<a href="">Помощь</a>
+
 			        </div>
             </div>
             <!--КОНЕЦ Контейнер с Вход-->
@@ -87,7 +87,7 @@
                             <button class="btn message  margin-right-small" type="button" data-toggle="collapse" 
                                     data-target="#mesta">
                                 <i class="icon-cog dropdown"></i>
-                                Места
+                                Фильтр
                             </button>
                         </li>
                         <li>
@@ -387,7 +387,9 @@
 <!-- Menu vertical-->
      <div>
 		<ul id="ui-menu-left" itemtype="http://schema.org/ItemList" itemscope="">
-			<meta content="Unordered" itemprop="itemListOrder">
+			<li class="active" itemprop="itemListElement">
+
+                        </li>
 
 			<li class="menuLeft" itemprop="itemListElement">
 				<a id="ui-menu-left-home" class="ui-menu-button ui-menu-button-following " href="shop_1.php">Магазины и ТЦ</a>
@@ -399,7 +401,7 @@
 				<a id="ui-menu-left-art" class="ui-menu-button-notification ui-menu-button ui-menu-button-art " href="fun1.php">Развлечения и отдых</a>
 			</li>
 			<li class="" itemprop="itemListElement">
-				<a id="ui-menu-left-fashion-mens" class="ui-menu-button-notification ui-menu-button ui-menu-button-fashion-mens " href="beauty_1.php">Красота и здоровье</a>
+				<a id="ui-menu-left-fashion-mens" class="ui-menu-button-notification ui-menu-button ui-menu-button-fashion-mens active" href="beauty_1.php">Красота и здоровье</a>
 			</li>
 			<li class="" itemprop="itemListElement">
 				<a id="ui-menu-left-fashion-womens" class="ui-menu-button-notification ui-menu-button ui-menu-button-fashion-womens " href="sport_1.php">Спорт и туризм</a>

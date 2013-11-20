@@ -29,7 +29,7 @@
 				    <div>
 						<a href="vhod.php">Вход</a>
 						<a href=""><img src="footer/vc3.png"/></a>
-						<a href="">Помощь</a>
+
 			        </div>
             </div>
             <!--КОНЕЦ Контейнер с Вход-->
@@ -44,7 +44,8 @@
                         <em>Любимые места/</em><a class="brand" href="shop_1.php"><em>Магазины и ТЦ</em></a>-->
 
 
-                    <ul class="span6 offset1">
+                     <!--Хлебные крошки-->
+                        <ul class="span6 offset1">
                         <li class="">
                             <a class="brand" href="index.php">
                             <em>Любимые места Пензы /</em></a>
@@ -54,7 +55,8 @@
                             <em>Магазины и ТЦ</em></a>
                         </li>
                         <li class="clear"></li>
-                    </ul>
+                        </ul>
+                        <!--КОНЕЦ Хлебные крошки-->
                     
  <!--                   <ul class="nav">
                         <li><a href="member-my-page.html">Моя страница</a></li>
@@ -101,7 +103,7 @@
                             <button class="btn message  margin-right-small" type="button" data-toggle="collapse" 
                                     data-target="#mesta">
                                 <i class="icon-cog dropdown"></i>
-                                Места
+                                Фильтр
                             </button>
                         </li>
                         <li>
@@ -401,10 +403,12 @@
 <!-- Menu vertical-->
      <div>
 		<ul id="ui-menu-left" itemtype="http://schema.org/ItemList" itemscope="">
-			<meta content="Unordered" itemprop="itemListOrder">
+			<li class="active" itemprop="itemListElement">
+
+                        </li>
 
 			<li class="menuLeft" itemprop="itemListElement">
-				<a id="ui-menu-left-home" class="ui-menu-button ui-menu-button-following " href="shop_1.php">Магазины и ТЦ</a>
+				<a id="ui-menu-left-home" class="ui-menu-button ui-menu-button-following active" href="shop_1.php">Магазины и ТЦ</a>
 			</li>
 			<li class="" itemprop="itemListElement">
 				<a id="ui-menu-left-architecture" class="ui-menu-button-notification ui-menu-button ui-menu-button-architecture " href="shopping1.php">Шопинг</a>

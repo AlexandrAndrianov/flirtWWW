@@ -18,14 +18,14 @@
                color:rgba(0,0,0,0)}
 #ui-menu-left:hover{width:185px}
 #ui-menu-left:hover a.ui-menu-button{width:185px;}/*ширина выпадающего меню*/
-#ui-menu-left:hover a.ui-menu-button:after{width:175px}
+#ui-menu-left:hover a.ui-menu-button:after{width:190px}/*Подчеркивание в меню*/
 #ui-menu-left:hover a.ui-menu-button{color:#424242}
 #ui-menu-left-shopping,#ui-menu-left-social,html.no-user #ui-menu-left-shopping,html.no-user #ui-menu-left-social{display:none!important}#ui-menu-left a.ui-menu-button:before{content:'';position:absolute;display:block;height:40px;width:32px;top:0;left:5px;/*background:url(../images/prefabs/icons-grey.svg);*/background-repeat:no-repeat}
 #ui-menu-left a.ui-menu-button:after{content:'';
       position:absolute;
       display:block;
       height:40px;
-      width:49px;           /*Подчеркивание в меню*/
+      width:31px;           /*Подчеркивание в меню*/
       top:0;
       left:5px;
       border-top:solid 1px #b6b6b6;}
@@ -61,7 +61,10 @@
 /*#ui-menu-left a.ui-menu-button:hover:before{background-image:url(../images/prefabs/icons-white.svg)}*/
 
 html.no-svg #ui-menu-left a.ui-menu-button:hover:before{background-image:url("../MenyLeft/MenuObsch23.png")}
-#ui-menu-left a.ui-menu-button:active,#ui-menu-left a.active,#ui-menu-left a.active:hover{background-color:rgba(242,242,242,1);color:#000}
+#ui-menu-left a.ui-menu-button:active,
+#ui-menu-left a.active,
+#ui-menu-left a.active:hover{background-color:rgb(120,120,120);color:#fff}
+
 #ui-menu-left a.ui-menu-button:active:before,#ui-menu-left a.active:before,#ui-menu-left a.active:hover:before{background-image:url("../MenyLeft/MenuObsch23.png")!important}
 html.no-svg #ui-menu-left a.ui-menu-button:active:before,html.no-svg #ui-menu-left a.ui-menu-button-active:before,html.no-svg #ui-menu-left a.ui-menu-button-active:hover:before{background-image:url("../MenyLeft/MenuObsch23.png")}
 #ui-menu-left a.ui-menu-button-home:before{background-position:-131px 0!important}

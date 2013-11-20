@@ -28,7 +28,7 @@
 				    <div>
 						<a href="vhod.php">Вход</a>
 						<a href=""><img src="footer/vc3.png"/></a>
-						<a href="">Помощь</a>
+
 			        </div>
             </div>
             <!--КОНЕЦ Контейнер с Вход-->
@@ -97,7 +97,7 @@
                             <button class="btn message  margin-right-small" type="button" data-toggle="collapse" 
                                     data-target="#mesta">
                                 <i class="icon-cog dropdown"></i>
-                                Места
+                                Фильтр
                             </button>
                         </li>
                         <li>
@@ -400,7 +400,7 @@
 
                         </li>
 			<li class="menuLeft" itemprop="itemListElement">
-				<a id="ui-menu-left-home" class="ui-menu-button ui-menu-button-following " href="shop_1.php">Магазины и ТЦ</a>
+				<a id="ui-menu-left-home" class="ui-menu-button ui-menu-button-following active" href="shop_1.php">Магазины и ТЦ</a>
 			</li>
 			<li class="" itemprop="itemListElement">
 				<a id="ui-menu-left-architecture" class="ui-menu-button-notification ui-menu-button ui-menu-button-architecture" href="shopping1.php">Шопинг</a>
