@@ -1,0 +1,445 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>FLIRTMAKE</title>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <link rel="stylesheet" href="css/bootstrap.css" />
+        <link rel="stylesheet" href="css/style.css" />
+        <link rel="stylesheet" href="css/style1.css" />
+		  <link rel="stylesheet" href="css/Menu.css" />
+        <link rel="stylesheet" href="css/datepicker.css" />
+        <link href='http://fonts.googleapis.com/css?family=PT+Sans:400,400italic,700,700italic&subset=latin,cyrillic' rel='stylesheet' type='text/css' />
+
+
+    </head>
+    <body>
+         <div class="navbar navbar-inverse navbar-fixed-top"><!-- navigation bar -->
+            
+            <!--Контейнер с Вход-->
+			<!--Стили style.css-->
+            <div class="login">
+				    
+						<a href="">Poisk58</a>
+					
+						<a href="Content.php">О проекте</a>
+						
+				    <div>
+						<a href="vhod.php">Вход</a>
+						<a href=""><img src="footer/vc3.png"/></a>
+						<a href="">Помощь</a>
+			        </div>
+            </div>
+            <!--КОНЕЦ Контейнер с Вход-->
+            
+            <div class="navbar-inner">
+                <div class="ui-top-menu-logo"><!--Сердечко-->  
+                    <a href=""><img src="img/icon/logo.png"/></a>
+                </div>
+                <div class="container containerLogo">
+                    <a class="brand " href="index.php">
+                        <em>Любимые места Пензы</em></a>
+                    
+ <!--                   <ul class="nav">
+                        <li><a href="member-my-page.html">Моя страница</a></li>
+                        <li><a href="all-members.html">Люди</a></li>
+                        <li class="active"><a href="all-places.html">Места</a></li>
+                        <li><a href="all-meets.html">Встречи</a></li>
+                        <li class="dropdown">
+                            <a data-toggle="dropdown" class="dropdown-toggle" href="#">Еще <b class="caret"></b></a>
+                            <ul class="dropdown-menu">
+                                <li><a href="all-organizatori.html">Организаторы</a></li>
+                                <li><a href="all-leadings.html">Ведущие</a></li>
+                                <li><a href="all-photographers.html">Фотографы</a></li>
+                                <li class="divider"></li>
+                                <li><a href="all-servise.html">Услуги</a></li>
+                                <li><a href="all-application.html">Приложения</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+ -->
+                    <ul class="nav user-nav pull-right">
+
+                        <li class="dropdown">
+                            <a data-toggle="dropdown" class="profile-id dropdown-toggle margin-right-small" href="#">Рекомендуемые <b class="caret"></b></a>
+                            <ul class="dropdown-menu">
+                                <li><a href="#">Новые</a></li>
+                                <li><a href="#">Популярные</a></li>
+                                <li><a href="#">Рекомендуемые</a></li>
+                                <li><a href="#">Избранные</a></li>
+                            </ul>
+                        </li>
+
+<!--  Меню верх Места       
+                       <li class="dropdown">
+                            <a data-toggle="dropdown" class="profile-id dropdown-toggle" href="#">Места <b class="caret"></b></a>
+                            <ul class="dropdown-menu">
+                                <li><a href="#">Новые</a></li>
+                                <li><a href="#">Популярные</a></li>
+                                <li><a href="#">Рекомендуемые</a></li>
+                                <li><a href="#">Избранные</a></li>
+                            </ul>
+                        </li>
+КОНЕЦ Меню верх Места  -->
+                         <li>
+                            <button class="btn message  margin-right-small" type="button" data-toggle="collapse" 
+                                    data-target="#mesta">
+                                <i class="icon-cog dropdown"></i>
+                                Места
+                            </button>
+                        </li>
+                        <li>
+                            <button class="btn message" type="button" data-toggle="collapse" 
+                                    data-target="#advanced-search">
+                                <i class="icon-search dropdown"></i>
+                            </button>
+                        </li>
+                    </ul>
+                    
+					 <div id="advanced-search" class="absolute-side collapse redcollapse-search" >                   
+                         <!--Кнопка закрыть окно-->                       
+                         <button class="close" data-target="#advanced-search" data-toggle="collapse" type="button">
+                            x
+                         </button>
+                         <!--КОНЕЦ Кнопка закрыть окно-->
+                         
+                         <div class="row calendar-conteiner">
+                            <div class="span9 margin-left">
+                                <div class="row span11">
+                                    <div class="span7">
+                                        
+                                            <select class="inputSity  span2 margin-right-small">
+                                                <option disabled>Категория</option>
+                                                <option>Пенза</option>
+                                                <option>Москва</option>
+                                                <option>Санкт-Петербург</option>
+                                                <option>Владивосток</option>
+                                                <option>Мокшан</option>
+                                            </select>
+                                       
+                                   
+                                    
+                                            <select class="inputSity  span2 margin-right-small">
+                                                <option disabled>Подкатегория</option>
+                                                <option>Пенза</option>
+                                                <option>Москва</option>
+                                                <option>Санкт-Петербург</option>
+                                                <option>Владивосток</option>
+                                                <option>Мокшан</option>
+                                            </select>
+                                        
+                                            <input class="span3" type="text">
+                                    </div>
+                                    
+                                    <div class="span1">
+                                        <button class="btn btn-block btn-primary  nomargin">Найти</button>
+                                    </div>
+                                </div>
+                                <div>
+                                    <div class="span2 feature"> <!--class feature Menu.css-->
+                                           <label>Расширенный поиск</label>
+                                    </div>
+                                    <div class="row nomargin span9">
+                                        <div class="span9 border-bottom"></div>
+                                    </div>
+                                    <div class="clear"></div>
+                                </div>
+                                <div class="span6">
+                                  
+                                    <div  data-toggle="buttons-checkbox">
+                                            <label class="margin-top">Цель визита</Label>
+                                            <button class="btn message margin-right-small" type="button">Слева</button>
+                                            <button class="btn message margin-right-small" type="button">Посредине</button>
+                                            <button class="btn message margin-right-small" type="button">Справа</button>
+                                            <button class="btn message margin-right-small" type="button">Слева</button>
+                                            <button class="btn message margin-right-small" type="button">Посредине</button>
+                                            <button class="btn message margin-right-small" type="button">Справа</button>
+                                    </div>
+                  
+                                    <div  data-toggle="buttons-checkbox">
+                                            <label class="margin-top">Расходы</Label>
+                                            <button class="btn message margin-right-small" type="button">Слева</button>
+                                            <button class="btn message margin-right-small" type="button">Посредине</button>
+                                            <button class="btn message margin-right-small" type="button">Справа</button>
+                                            <button class="btn message margin-right-small" type="button">Слева</button>
+                                            <button class="btn message margin-right-small" type="button">Посредине</button>
+                                            <button class="btn message margin-right-small" type="button">Справа</button>
+                                    </div>
+                                    <div  data-toggle="buttons-checkbox">
+                                            <label class="margin-top">Время работы</Label>
+                                            <button class="btn message margin-right-small" type="button">Слева</button>
+                                            <button class="btn message margin-right-small" type="button">Посредине</button>
+                                            <button class="btn message margin-right-small" type="button">Справа</button>
+                                            <button class="btn message margin-right-small" type="button">Слева</button>
+                                            <button class="btn message margin-right-small" type="button">Посредине</button>
+                                            <button class="btn message margin-right-small" type="button">Справа</button>
+                                    </div>
+                                   <div  data-toggle="buttons-checkbox">
+                                            <label class="margin-top">Другое</Label>
+                                            <button class="btn message margin-right-small" type="button">Слева</button>
+                                            <button class="btn message margin-right-small" type="button">Посредине</button>
+                                            <button class="btn message margin-right-small" type="button">Справа</button>
+                                            <button class="btn message margin-right-small" type="button">Слева</button>
+                                            <button class="btn message margin-right-small" type="button">Посредине</button>
+                                            <button class="btn message margin-right-small" type="button">Справа</button>
+                                            <button class="btn message margin-right-small" type="button">Слева</button>
+                                            <button class="btn message margin-right-small" type="button">Посредине</button>
+                                            <button class="btn message margin-right-small" type="button">Справа</button>
+                                            <button class="btn message margin-right-small" type="button">Слева</button>
+                                            <button class="btn message margin-right-normal" type="button">Посредине</button>
+                                            <button class="btn message margin-right-normal" type="button">Справа</button>
+                                    </div>
+                                </div>    
+                                     <div class="span1 clear right margin-right">
+                                        <button class="btn btn-block btn-primary  nomargin">Фильтр</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+ 
+                </div>
+            </div>
+        </div><!-- /navigation bar -->
+
+        <div class="container"><!-- container -->
+           <div class="row">
+                <div class="span3">
+                    <div class="thumbnail">
+                        <div class="image-container">
+                            <a href="">
+                                <img src="img/add.png">
+                            </a>
+
+                        </div>
+                    </div>
+                    <div class="button-block">
+                        <a href="#myModal" role="button" class="btn btn-block btn-primary" data-toggle="modal">Настройка места</a>
+
+                    </div>
+                    <div class="modal" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+                        <div class="modal-header">
+                            <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
+
+                            <h3 id="myModalLabel">Настройка</h3>
+                        </div>
+                        <div class="modal-body">
+                            <div class="setting-block">
+                                <form>
+
+                                    <div class="row">
+                                        <div class="span2">
+                                            <div class="label-settings">Город</div>
+                                        </div>
+                                        <div class="span4">
+                                            <select class="span4">
+                                                <option>Пенза</option>
+                                                <option>Москва</option>
+                                                <option>Питер</option>
+                                                <option>Париж</option>
+                                                <option>Лондон</option>
+                                            </select>
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="span2">
+                                            <div class="label-settings">Адрес</div>
+                                        </div>
+                                        <div class="span4">
+                                            <input type="text" class="span4">
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="span2">
+                                            <div class="label-settings">Телефон</div>
+                                        </div>
+                                        <div class="span4">
+                                            <span class="input-append">
+                                                <input class="span3" type="text"><button type="button" class="btn">...</button>
+                                            </span>
+                                        </div>
+                                    </div>
+
+                                    <div class="row margin-top-normal">
+                                        <div class="span2">
+                                            <div class="label-settings">Краткое описание</div>
+                                        </div>
+                                        <div class="span4">
+                                            <textarea  rows="1" maxlength="200" class="span4"></textarea>
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="span2">
+                                            <div class="label-settings">Прочее</div>
+                                        </div>
+                                        <div class="span4">
+                                            <div class="btn-group" data-toggle="buttons-checkbox">
+                                                <div>
+                                                    <span><button class="tltip btn btn-mini btn-inverse" title="first tooltip" type="button">
+                                                            <i class="icon-glass icon-white"></i>
+                                                        </button>
+                                                    </span>
+                                                    <span class="margin-left-small">
+                                                        <button class="tltip btn btn-mini btn-inverse" title="2 tooltip" type="button"><i class="icon-glass icon-white"></i></button>
+                                                    </span>
+                                                    <span class="margin-left-small">
+                                                        <button class="tltip btn btn-mini btn-inverse" title="2 tooltip" type="button"><i class="icon-glass icon-white"></i></button>
+                                                    </span>
+                                                    <span class="margin-left-small">
+                                                        <button class="tltip btn btn-mini btn-inverse" title="2 tooltip" type="button"><i class="icon-glass icon-white"></i></button>
+                                                    </span>
+                                                    <span class="margin-left-small">
+                                                        <button class="tltip btn btn-mini btn-inverse" title="2 tooltip" type="button"><i class="icon-glass icon-white"></i></button>
+                                                    </span>
+                                                    <span class="margin-left-small">
+                                                        <button class="tltip btn btn-mini btn-inverse" title="2 tooltip" type="button"><i class="icon-glass icon-white"></i></button>
+                                                    </span>
+                                                    <span class="margin-left-small">
+                                                        <button class="tltip btn btn-mini btn-inverse" title="2 tooltip" type="button"><i class="icon-glass icon-white"></i></button>
+                                                    </span>
+                                                    <span class="margin-left-small">
+                                                        <button class="tltip btn btn-mini btn-inverse" title="2 tooltip" type="button"><i class="icon-glass icon-white"></i></button>
+                                                    </span>
+                                                    <span class="margin-left-small">
+                                                        <button class="tltip btn btn-mini btn-inverse" title="2 tooltip" type="button"><i class="icon-glass icon-white"></i></button>
+                                                    </span>
+                                                </div>
+                                                <div class="margin-top-normal">
+                                                    <span><button class="tltip btn btn-mini btn-inverse" title="first tooltip" type="button">
+                                                            <i class="icon-glass icon-white"></i>
+                                                        </button>
+                                                    </span>
+                                                    <span class="margin-left-small">
+                                                        <button class="tltip btn btn-mini btn-inverse" title="2 tooltip" type="button"><i class="icon-glass icon-white"></i></button>
+                                                    </span>
+                                                    <span class="margin-left-small">
+                                                        <button class="tltip btn btn-mini btn-inverse" title="2 tooltip" type="button"><i class="icon-glass icon-white"></i></button>
+                                                    </span>
+                                                    <span class="margin-left-small">
+                                                        <button class="tltip btn btn-mini btn-inverse" title="2 tooltip" type="button"><i class="icon-glass icon-white"></i></button>
+                                                    </span>
+                                                    <span class="margin-left-small">
+                                                        <button class="tltip btn btn-mini btn-inverse" title="2 tooltip" type="button"><i class="icon-glass icon-white"></i></button>
+                                                    </span>
+                                                    <span class="margin-left-small">
+                                                        <button class="tltip btn btn-mini btn-inverse" title="2 tooltip" type="button"><i class="icon-glass icon-white"></i></button>
+                                                    </span>
+                                                    <span class="margin-left-small">
+                                                        <button class="tltip btn btn-mini btn-inverse" title="2 tooltip" type="button"><i class="icon-glass icon-white"></i></button>
+                                                    </span>
+                                                    <span class="margin-left-small">
+                                                        <button class="tltip btn btn-mini btn-inverse" title="2 tooltip" type="button"><i class="icon-glass icon-white"></i></button>
+                                                    </span>
+                                                    <span class="margin-left-small">
+                                                        <button class="tltip btn btn-mini btn-inverse" title="2 tooltip" type="button"><i class="icon-glass icon-white"></i></button>
+                                                    </span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="row margin-top-normal">
+                                        <div class="span2">
+                                            <div class="label-settings">Ссылки</div>
+                                        </div>
+                                        <div class="span4">
+
+                                            <div><img src="img/icon/vk.png">
+                                                <input class="span3" type="text"></div>
+                                            <div><img src="img/icon/vk.png">
+                                                <input class="span3" type="text"></div>
+                                            <div><img src="img/icon/vk.png">
+                                                <input class="span3" type="text"></div>
+                                            <div><img src="img/icon/vk.png">
+                                                <input class="span3" type="text"></div>
+
+
+                                        </div>
+                                    </div>
+
+                                </form>
+                            </div>
+                        </div>
+
+                        <div class="modal-footer">
+                            <button class=" btn btn-primary pull-right">Сохранить</button>
+                        </div>
+                    </div>
+
+                </div><!--span3-->
+                <div class="span9">
+                    <div class="flaer-conteiner">
+                        <img src="img/map.png">
+                        <div class="title-creat">
+                            <form class="form-inline">
+                                <select>
+                                    <option disabled selected="selected">Интерес</option>
+                                    <option>Коты</option>
+                                    <option>Совы</option>
+                                    <option>Пингвины</option>
+                                    <option>Еноты</option>
+                                </select>
+                                <input type="text" placeholder="Введите название места…">
+                                <button class="btn btn-danger">
+                                    Сохранить
+                                </button>
+                            </form>
+
+                        </div>
+                    </div>
+
+                    <form class="nomargin">
+
+                        <h4>Описание места</h4>
+                        <textarea class="span9" rows="6" maxlength="1000" placeholder="Придумайте интересное описание места..."></textarea>
+                    </form>
+
+                    <h4>Фотогалерея</h4>
+                    <div class="row"> <!-- span3+span6 --> 
+                        <div class="span3">
+                            <div class="thumbnail">
+                                <div class="image-container">
+                                    <a href="">
+                                        <img src="img/add.png">
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="span3">
+
+                        </div>
+                        <div class="span3">
+
+                        </div>
+                    </div><!-- /span3+span3+span3 -->
+
+                </div><!--span9-->
+            </div>
+        </div>  <!-- container -->
+
+        <div class="footer">
+                <p>&#169;2013 POISK58.ru
+                    <a href="Content.php"class="href">О проекте</a>
+                    <a href=""class="href">Реклама</a>
+                    <a href="place-create.html"class="href">Сотрудничество</a>
+                    <a href=""class="href">Помощь</a>
+
+                    <a href=""><img  class="socialV" src="footer/vk2.svg"/></a>
+                    <a href=""><img  class="socialT"src="footer/twitter3.svg"/></a>
+                    <a href=""><img  class="socialF"src="footer/facebook2.svg"/></a>	
+
+                </p>
+          </div>
+		
+		
+		
+		
+		
+        <!-- SCRIPTS ========================================================================== -->
+        <script src="js/jquery.min.js"></script>
+        <script src="js/bootstrap.js"></script>
+        <script src="js/hover-slide-up.js"></script>
+        <script src="js/image-region.js"></script>
+        <script src="js/datepicker.js" type="text/javascript"></script>
+        <!-- <script src="js/bootstrap-modal.js"></script> -->
+        <!-- /SCRIPTS ========================================================================== -->
+
+    </body>
+</html>
