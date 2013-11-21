@@ -40,7 +40,7 @@
                         <ul class="input-xxlarge pull-left indent-left2">
                         <li class="">
                             <a class="brand" href="index.php">
-                            <em>Любимые места Пензы /</em></a>
+                            <em>Любимые места Пензы</em></a>
                         </li>
 <!--                        <li class="">
                             <a class="brand" href="index.php">
