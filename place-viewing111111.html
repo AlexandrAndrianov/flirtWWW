@@ -4,7 +4,7 @@
         <title>FLIRTMAKE</title>
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
         <link rel="stylesheet" href="css/bootstrap.css" />
-		<link rel="stylesheet" href="css/bootstrap-responsive.css" />
+	<link rel="stylesheet" href="css/bootstrap-responsive.css" />
         <link rel="stylesheet" href="css/style.css" />
         <link rel="stylesheet" href="css/style1.css" />
 		<link rel="stylesheet" href="css/Menu.css" />
@@ -13,7 +13,7 @@
 
     </head>
     <body>
-       
+       <div class="headerWidth">
         <div class="navbar navbar-inverse navbar-fixed-top"><!-- navigation bar -->
             
             <!--Контейнер с Вход-->
@@ -27,7 +27,7 @@
 				    <div>
 						<a href="vhod.php">Вход</a>
 						<a href=""><img src="footer/vc3.png"/></a>
-						<a href="">Помощь</a>
+
 			        </div>
             </div>
             <!--КОНЕЦ Контейнер с Вход-->
@@ -36,22 +36,43 @@
                 <div class="ui-top-menu-logo"><!--Сердечко-->  
                     <a href=""><img src="img/icon/logo.png"/></a>
                 </div>
-                <!--                <div class="container container-width-header">
-                    <a class="brand brand-left" href="index.php">
+				
+                <div class="container container-width-header">
+<!--                    <a class="brand brand-left" href="index.php">
                         <em>Любимые места/</em></a><a class="brand" href="shop_1.php"><em>Магазины и ТЦ</em></a>-->
-                
-                  <ul class="span6 offset1">
+                   
+                        <!--Хлебные крошки-->
+                        <ul class="span6 offset1">
                         <li class="">
                             <a class="brand" href="index.php">
                             <em>Любимые места Пензы /</em></a>
                         </li>
                         <li class="">
                             <a class="brand" href="index.php">
-                            <em>Магазины и ТЦ</em></a>
+                            <em></em></a>
                         </li>
                         <li class="clear"></li>
-                   </ul>
-                    
+                        </ul>
+                        <!--КОНЕЦ Хлебные крошки-->
+
+ <!--                   <ul class="nav">
+                        <li><a href="member-my-page.html">Моя страница</a></li>
+                        <li><a href="all-members.html">Люди</a></li>
+                        <li class="active"><a href="all-places.html">Места</a></li>
+                        <li><a href="all-meets.html">Встречи</a></li>
+                        <li class="dropdown">
+                            <a data-toggle="dropdown" class="dropdown-toggle" href="#">Еще <b class="caret"></b></a>
+                            <ul class="dropdown-menu">
+                                <li><a href="all-organizatori.html">Организаторы</a></li>
+                                <li><a href="all-leadings.html">Ведущие</a></li>
+                                <li><a href="all-photographers.html">Фотографы</a></li>
+                                <li class="divider"></li>
+                                <li><a href="all-servise.html">Услуги</a></li>
+                                <li><a href="all-application.html">Приложения</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+ -->
                     <ul class="nav user-nav pull-right">
 
                         <li class="dropdown">
@@ -64,11 +85,22 @@
                             </ul>
                         </li>
 
+<!--  Меню верх Места       
+                       <li class="dropdown">
+                            <a data-toggle="dropdown" class="profile-id dropdown-toggle" href="#">Места <b class="caret"></b></a>
+                            <ul class="dropdown-menu">
+                                <li><a href="#">Новые</a></li>
+                                <li><a href="#">Популярные</a></li>
+                                <li><a href="#">Рекомендуемые</a></li>
+                                <li><a href="#">Избранные</a></li>
+                            </ul>
+                        </li>
+КОНЕЦ Меню верх Места  -->
                          <li>
                             <button class="btn message  margin-right-small" type="button" data-toggle="collapse" 
                                     data-target="#mesta">
                                 <i class="icon-cog dropdown"></i>
-                                Места
+                                Фильтр
                             </button>
                         </li>
                         <li>
@@ -181,7 +213,9 @@
                         </div>
  
 				</div>
-            </div><!-- /navigation bar -->
+            </div>
+			</div>
+        </div><!-- /navigation bar -->
        
 		<!--*****************************Места (тип акордион)-->
         <div id="mesta" class="collapse center">
@@ -210,11 +244,11 @@
           
         <!--КОНЕЦ Места (тип акордион)-->
 
-        <!-- container -->
-            <div class="bg-container span10 offset1">
-           <!--   <div class="row">-->
-                
-                    <div class="thumbnail  span2">
+        <div class="container containerReight"><!-- container -->
+            <div class="bg-container container-width adaptive-glavnconteiner-margin-top adaptive-glavnconteiner-margin-left">
+              <div class="row">
+                <div class="span3 adaptive-favoritesfoto-width adaptive-margin-right adaptive-favoritesfoto-margin-left ">
+                    <div class="thumbnail">
                         <div class="image-container">
 
                             <img src="img/4651.png">
@@ -222,26 +256,52 @@
 
                         </div>
                     </div>
-                
-         <!--   </div>-->
-			<div class="span7">
-                 <div class="flaer-conteiner">
+                </div>
+                <div class="span10 adaptive-mapsfoto-width adaptive-mapsfoto-margin-left">
+                    <div class="flaer-conteiner">
                         <img class="adaptive-imgmaps-width" src="img/map.png">
                         <div class="title"><h4 class="margin-top margin-bottom">Место: Кафе Пин-Гвин</h4></div>
-                  </div>
-           </div>
-         <div id="place-viewing" class="row in collapse">
-                <div class="span3">
+                      <!--  <div class="flaer">
+                            <a class="btn" data-toggle="collapse" data-target="#place-viewing" data-switchable>
+                                <span>Подробнее </span>
+
+                            </a>
+                        </div>-->
+                    </div>
+                </div>
+            </div>
+            <div id="place-viewing" class="row in collapse">
+                <div class="span3 adaptive-ocenkacontainer-width adaptive-margin-right adaptive-ocenkacontainer-margin-left">
                     
                     <div class="widget-block">
                         <h4 class="centered-text">Средняя оценка места</h4>
                         <div class="rating-block-big high margin-auto margin-top margin-bottom"> 10.0</div>
                         <div class="centered-text margin-bottom">10 голосов</div>
                         </div>
-                 </div><!--span3-->
+                    <div class="widget-block margin-top-small">
+                        <ul>
+                            <li>Интерьер
+                                <div class="menu-item-button">
+                                    <div class="rating-block-mini low">3.4</div>
+                                </div>
+                            </li>
+                            <li>Цены
+                                <div class="menu-item-button">
+                                    <div class="rating-block-mini medium">5.0</div>
+                                </div>
+                            </li>
+                            <li>Сервис
+                                <div class="menu-item-button">
+                                    <div class="rating-block-mini medium">5.0</div>
+                                </div>
+                            </li>
+                        </ul> 
+                    </div>
+                    <a href="" class="btn btn-block btn-primary adaptive-btnocenka-width">Оценить</a>
+                </div><!--span3-->
 
-                <div class="span6">
-                    <div class="span5">
+                <div class="span9 adaptive-contentcontainer-width adaptive-contentcontainer-margin-left">
+                    <div class="">
                         <h4>Описание</h4>
                         <p>Аккорд изящно варьирует мономерный голос, и если в одних голосах или пластах музыкальной ткани сочинения еще продолжаются конструктивно-композиционные процессы предыдущей части, то в других - происходит становление новых.</p>
                         <p>Шоу-бизнес иллюстрирует флюгель-горн, потому что современная музыка не запоминается. Еще Аристотель в своей «Политике» говорил, что музыка, воздействуя на человека, доставляет «своего рода очищение, то есть облегчение, связанное с наслаждением», однако драм-машина вероятна.</p>
@@ -252,76 +312,76 @@
                             Сайт: <a href="http://pingvin-party.com">http://pingvin-party.com</a>
                         </p>
                     </div>
-                    <div class="">
+                    <div class="row">
                         <div class="span3">
                             <h4>Тип места:</h4>
                         </div>
-                        <div class="span3 margin-top-normal adaptive-contenttext-width">
+                        <div class="span6 margin-top-normal adaptive-contenttext-width">
                             Кафе
                         </div>
                     </div>
-                    <div class="">
+                    <div class="row">
                         <div class="span3">
                             <h4>Адрес:</h4>
                         </div>
-                        <div class="span3 margin-top-normal adaptive-contenttext-width">
+                        <div class="span6 margin-top-normal adaptive-contenttext-width">
                             г. Пенза (58), ул. Гагарина, 16
                         </div>
                     </div>
-                    <div class="">
+                    <div class="row">
                         <div class="span3">
                             <h4>Контакты:</h4>
 
                         </div>
-                        <div class="span3 margin-top-normal adaptive-contenttext-width">
+                        <div class="span6 margin-top-normal adaptive-contenttext-width">
                             +7 (999) 999-99-99
                         </div>
                     </div>
-                    <div class="">
+                    <div class="row">
                         <div class="span3">
                             <h4>Режим работы:</h4>
 
                         </div>
-                        <div class="span3 margin-top-normal adaptive-contenttext-width">
+                        <div class="span6 margin-top-normal adaptive-contenttext-width">
                             с 9:00 до 1:00, без перерыва и выходных
                         </div>
                     </div>
-                    <div class="">
+                    <div class="row">
                         <div class="span3">
                             <h4>Вход:</h4>
 
                         </div>
-                        <div class="span3 margin-top-normal adaptive-contenttext-width">
+                        <div class="span6 margin-top-normal adaptive-contenttext-width">
                             бесплатный
                         </div>
                     </div>
-                    <div class="">
+                    <div class="row">
                         <div class="span3">
                             <h4>Кухня:</h4>
 
                         </div>
-                        <div class="span3 margin-top-normal adaptive-contenttext-width">
+                        <div class="span6 margin-top-normal adaptive-contenttext-width">
                             рыбные блюда
                         </div>
                     </div>
-                    <div class="">
+                    <div class="row">
                         <div class="span3">
                             <h4>Прочее:</h4>
 
                         </div>
-                        <div class="span3 margin-top-normal">
+                        <div class="span6 margin-top-normal">
                             <a class="tltip" href="" title="first tooltip"><i class="icon-glass"></i></a>
                             <a class="tltip" href="" title="second tooltip"><i class="icon-music"></i></a>
                             <a class="tltip" href="" title="third tooltip"><i class="icon-screenshot"></i></a>
                             <a class="tltip" href="" title="fourth tooltip"><i class="icon-star"></i></a>
                         </div>
                     </div>
-                    <div class="">
+                    <div class="row">
                         <div class="span3">
                             <h4>Ссылки:</h4>
 
                         </div>
-                        <div class="span3 margin-top-normal">
+                        <div class="span6 margin-top-normal">
                             <div><a href=""><img src="img/icon/vk.png"> Шедевры кулинарии</a> </div>
                             <div><a href="#"><img src="img/icon/facebook.png"> Шедевры кулинарии</a> </div>
                         </div>
@@ -531,9 +591,14 @@
                         </ul>
                     </div>
                 </div>
-             </div>
-          </div>
-                    <!-- container -->
+            </div>
+
+            </div>
+
+
+
+
+        </div>  <!-- container -->
 		<div class="clear"></div>
 
         <div class="footer">
