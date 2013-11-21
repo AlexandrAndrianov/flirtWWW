@@ -26,7 +26,8 @@ body {padding-top: 84px;}
 /*класс LOGIN*/
 .login img {width: 20px;height: 20px;}
 .login{padding-bottom: 4px;background:#000000;}
-.login div{float:right; width: 170px;}
+/*.login div{float:right; width: 170px;}Ширина блока login не нужна
+он автоматичсеки выстраивается по ширине в соответсвии с содержимым*/ 
 .login a{margin:0px 5px;padding-right:4px;color: white;}
 
 
