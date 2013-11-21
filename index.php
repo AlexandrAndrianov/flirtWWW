@@ -42,10 +42,10 @@
                             <a class="brand" href="index.php">
                             <em>Любимые места Пензы /</em></a>
                         </li>
-                        <li class="">
+<!--                        <li class="">
                             <a class="brand" href="index.php">
-                            <em>Магазины и ТЦ</em></a>
-                        </li>
+                            <em>Любимые места Пензы</em></a>
+                        </li>-->
                         <li class="clear"></li>
                         </ul>
                         <!--КОНЕЦ Хлебные крошки-->

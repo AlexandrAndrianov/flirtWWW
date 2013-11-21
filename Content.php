@@ -50,7 +50,7 @@
                         </li>
                         <li class="">
                             <a class="brand" href="index.php">
-                            <em>Магазины и ТЦ</em></a>
+                            <em>О проекте</em></a>
                         </li>
                         <li class="clear"></li>
                         </ul>
