@@ -27,7 +27,6 @@
 	        <div class="pull-right">
                     <a href="vhod.php">Вход</a>
                     <a href=""><img src="footer/vc3.png"/></a>
-
 		</div>
             </div>
             <!--КОНЕЦ Контейнер с Вход-->
