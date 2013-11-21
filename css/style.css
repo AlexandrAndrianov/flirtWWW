@@ -49,10 +49,10 @@ body {padding-top: 84px;}
 
 
 
-p a {display:inline-block;}
-.Float-right a{display:inline-block;}
-.Float-right{float:right;}
-.Float-left{float:left;}
+.footer p a {display:inline-block;}
+.footer .pull-left a{display:inline-block;}
+
+
 /*Подвал с сыслками footer*/
 .footer {
 	
