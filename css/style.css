@@ -42,17 +42,26 @@ body {padding-top: 84px;}
 }*/
 
 /*Пиктограммы соц сетей в footer*/
-.socialV{width:40px; height:37px;margin-left:494px;}
+.socialV{width:40px; height:37px;}/*убрал margin-left*/
 .socialT{width:40px; height:35px;}
 .socialF{width:40px; height:41px;}
 
+
+
+
+p a {display:inline-block;}
+.Float-right a{display:inline-block;}
+.Float-right{float:right;}
+.Float-left{float:left;}
 /*Подвал с сыслками footer*/
 .footer {
-    height:auto;
-    width: 1122px;
+	
+/*    height:auto;*/
+/*    width: 1122px;*/
+    margin-right: 20px;
     border-top: 2px solid  #BBB;
-    margin:5px auto;
-    padding-top: 5px;}
+/*    margin:5px auto;*/
+    padding-top: 10px;}
 /* Common styles */
 .footer .href {
     margin-left: 20px;
