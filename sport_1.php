@@ -8,6 +8,7 @@
         <link rel="stylesheet" href="css/style.css" />
         <link rel="stylesheet" href="css/style1.css" />
         <link rel="stylesheet" href="css/Menu.css" />
+        <link rel="stylesheet" href="css/UniversalClass.css" />
         <link href='http://fonts.googleapis.com/css?family=PT+Sans:400,400italic,700,700italic&subset=latin,cyrillic' rel='stylesheet' type='text/css' />
         
         <script type="text/javascript" src="jsKnopka/jquery.min.js"></script>
@@ -20,16 +21,12 @@
             <!--Контейнер с Вход-->
 			<!--Стили style.css-->
             <div class="login">
-				    
-						<a href="">Poisk58</a>
-					
-						<a href="Content.php">О проекте</a>
-						
-				    <div>
-						<a href="vhod.php">Вход</a>
-						<a href=""><img src="footer/vc3.png"/></a>
-
-			        </div>
+		<a href="">Poisk58</a>
+		<a href="Content.php">О проекте</a>
+		<div class="pull-right">
+                    <a href="vhod.php">Вход</a>
+                    <a href=""><img src="footer/vc3.png"/></a>
+                </div>
             </div>
             <!--КОНЕЦ Контейнер с Вход-->
             
@@ -38,9 +35,25 @@
                     <a href=""><img src="img/icon/logo.png"/></a>
                 </div>
 				
-                <div class="container container-width-header">
+<!--                <div class="container container-width-header">
                     <a class="brand brand-left" href="index.php">
                         <em>Любимые места/</em><a class="brand" href="sport_1.php"><em>Спорт и туризм</em></a>
+                    -->
+                    
+                 <div class="container container-width-header">
+                     <!--Хлебные крошки-->
+                        <ul class="input-xxlarge pull-left indent-left2">
+                        <li class="">
+                            <a class="brand" href="index.php">
+                            <em>Любимые места Пензы /</em></a>
+                        </li>
+                        <li class="">
+                            <a class="brand" href="index.php">
+                            <em>Спорт и туризм</em></a>
+                        </li>
+                        <li class="clear"></li>
+                        </ul>
+                        <!--КОНЕЦ Хлебные крошки-->
                     
  <!--                   <ul class="nav">
                         <li><a href="member-my-page.html">Моя страница</a></li>
