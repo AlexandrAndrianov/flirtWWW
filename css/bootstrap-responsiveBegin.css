@@ -65,74 +65,7 @@
   display: inherit !important;
 }
 
-@media (max-width: 1250px) and (min-width: 1200px){
-	#mesta{top:0px;}
-    .brand {margin-left: 3%;}
-}
-
-@media (max-width: 1199px) and (min-width: 980px) {
-	 /*Окно расширенного поиска*/
-   .span6 {
-    width: 538px !important;
-}
-    .margin-left{margin-left: 170px !important;}
- /*КОНЕЦ Окно расширенного поиска*/
-  
-	 .navbar-inner{padding: 0px!important;}
-	.headerWidth{
-				 margin-top: -84px;
-		   }
-		  #mesta{top:56px;}
-    .center{
-            width: 540px;
-            margin: 34px auto!important;
-	       }
-		   
-  /*Изменение footer*/
-  .socialV {  margin-left: 29% !important;}
-  .footer{width: 89% !important;}
-  .brand {margin-left: 3% !important;}
-  /*КОНЕЦ Изменение footer*/
-    
-}
-@media (max-width: 979px) and (min-width: 760px) {
-	 .navbar-inner{padding: 1px!important;}
-	 .headerWidth{
-				 margin-top: -84px;
-		   }
-  .navbar .nav.pull-right{margin-right: 10px !important;}
-  /*Изменение footer*/
-  .navbar-inner{height: 0px!important;}
-  .socialV {  margin-left: 29% !important;}
-  .footer{width: 89% !important;}
-  .brand {margin-left: 6% !important;}
-  /*КОНЕЦ Изменение footer*/
-    
-}
-@media (max-width: 759px) and (min-width: 540px) {
-	.navbar .nav.pull-right{margin-right: 10px !important;}
-	 .navbar-inner{padding: 0px!important;}
-  /*Изменение footer*/
-  .center{width:222px !important;}
-  .socialV {  margin-left: 29% !important;}
-  .footer{width: 89% !important;}
-  .brand {margin-left: 9% !important;}
-  /*КОНЕЦ Изменение footer*/
- }
- @media (max-width: 539px) and (min-width: 340px) {
-	 #mesta{top:3px;}
-	 .navbar .nav.pull-right{margin-right: 10px !important;}
-	  .navbar-inner{padding: 0px!important;}
-  /*Изменение footer*/
-  .center{width:222px !important;}
-  .socialV {  margin-left: 29% !important;}
-  .footer{width: 89% !important;}
-  .brand {margin-left: 12% !important;}
-/*  #ui-menu-left{top:131px !important;}/*
-  #ui-menu-left-sale{top:433px !important;}*/
-  /*КОНЕЦ Изменение footer*/
- }
-/*@media (min-width: 768px) and (max-width: 979px) {
+@media (min-width: 768px) and (max-width: 979px) {
   .hidden-desktop {
     display: inherit !important;
   }
@@ -145,106 +78,9 @@
   .hidden-tablet {
     display: none !important;
   }
-}*/
-/*Окно поиска*/
-@media (max-width: 1199px) and (min-width: 1062px) {
-    
-  /*Окно поиска*/
-   .redcollapse-search {
-    margin: 22px 0 0 1px !important;
-    width: 900px !important;
-}
-}
-/*Окно поиска*/
-@media (max-width: 1061px) and (min-width: 970px) {
-    
-  /*Окно поиска*/
-   .redcollapse-search {
-    margin: 22px 0 0 1px !important;
-    width: 800px !important;
-}
-}
-/*Окно поиска*/
-@media (max-width: 969px) and (min-width: 767px) {
-    
-  /*Окно поиска*/
-   .redcollapse-search {
-    margin: 22px 0 0 1px !important;
-    width: 650px !important;
-}
 }
 
-/*Окно поиска*/
-@media (max-width: 766px) and (min-width: 560px) {
-    
-  /*Окно поиска*/
-   .redcollapse-search {
-    margin: 22px 0 0 -55px !important;
-    width: 400px !important;
-}
-    .span6{width: 265px;}
-    .margin-left{margin-left: 80px !important;}
-    .right{float: none !important;}
-    [class*="span"] {
-    float: left;
-    min-height: 1px;
-    margin-left: 20px;
-    margin-bottom: 10px;
-  }
-}
-
-/*Окно поиска*/
-@media (max-width: 559px) and (min-width: 450px) {
-    
-  /*Окно поиска*/
-   .redcollapse-search {
-    margin: 22px 0 0 -55px !important;
-    width: 385px !important;
-}
-    #ui-menu-left{top:131px !important;}
-    #ui-menu-left-sale{top:433px !important;}
-    .span6{width: 265px;}
-    .margin-left{margin-left: 52px !important;}
-    .absolute-side{left: 46px !important;}
-    .right{float: none !important;}
-    [class*="span"] {
-    float: left;
-    min-height: 1px;
-    margin-left: 20px;
-    margin-bottom: 10px;
-  }
-    
-}
-
-/*Окно поиска*/
-@media (max-width: 449px) and (min-width: 340px) {
-    
-  /*Окно поиска*/
-   .redcollapse-search {
-    margin: 22px 0 0 -55px !important;
-    width: 285px !important;
-}
-    .span6{width: 265px;}
-    .margin-left{margin-left: 10px !important;}
-    .absolute-side{left: 46px !important;}
-    .right{float: none !important;}
-    
-    [class*="span"] {
-    float: left;
-    min-height: 1px;
-    margin-left: 20px;
-    margin-bottom: 10px;
-  }
-}
-@media (max-width: 767px) {/*----------------------------------------------------------------------------*/
-	/*для размера 767*/
-	 .center{
-            width: 222px;
-            margin: 0 auto;
-	        }
-			.headerWidth{
-				 margin-top: -84px;
-		   }
+@media (max-width: 767px) {
   .hidden-desktop {
     display: inherit !important;
   }
@@ -273,14 +109,11 @@
 }
 
 @media (min-width: 1200px) {
-	
+
   .row {
-    /*margin-left: -30px;*/
-     width: 1130px;
-    margin:0 auto;
+    margin-left: -30px;
     *zoom: 1;
   }
-
   .row:before,
   .row:after {
     display: table;
@@ -293,7 +126,7 @@
   [class*="span"] {
     float: left;
     min-height: 1px;
-    margin-left: 0;
+    margin-left: 30px;
   }
   .container,
   .navbar-static-top .container,
@@ -329,7 +162,7 @@
     width: 370px;
   }
   .span3 {
-    width: 282px;
+    width: 270px;
   }
   .span2 {
     width: 170px;
@@ -626,18 +459,8 @@
   }
 }
 
-/*@media (min-width: 768px) and (max-width: 979px)--------------------------------------------------------*/
-@media (max-width: 1199px) and (min-width: 768px) {
-    .center{
-            width: 540px;
-            margin: 34px auto!important;
-	       }
-		   .headerWidth{
-			  /*height: 200px; */
-			  
-			   margin-top: -84px;
-	       }
-		  
+@media (min-width: 768px) and (max-width: 979px) {
+    
   .row {
     margin-left: -20px;
     *zoom: 1;
@@ -690,7 +513,7 @@
     width: 228px;
   }
   .span3 {
-    width: 250px;  /*Ширина одной фото в слайдере*/
+    width: 166px;
   }
   .span2 {
     width: 104px;
@@ -986,12 +809,20 @@
   .navbar-fixed-top,
   .navbar-fixed-bottom,
   .navbar-static-top {
-    margin-right: -20px;
-    margin-left: -20px;
+    margin-right: 0px;/*-20px Уезжает за пределы*/
+    margin-left: 0px;/*-20px Уезжает за пределы*/
   }
   .container-fluid {
     padding: 0;
   }
+  
+  .container,
+  .navbar-static-top .container,
+  .navbar-fixed-top .container,
+  .navbar-fixed-bottom .container {
+    width: 370px;
+  }
+  
   .dl-horizontal dt {
     float: none;
     width: auto;
@@ -1002,7 +833,7 @@
     margin-left: 0;
   }
   .container {
-    width: auto;
+    width: 200px; /*Было auto*/
   }
   .row-fluid {
     width: 100%;
@@ -1019,13 +850,20 @@
   .uneditable-input[class*="span"],
   .row-fluid [class*="span"] {
     display: block;
-    float: none;
+    float: left;
     width: 100%;
     margin-left: 0;
     -webkit-box-sizing: border-box;
        -moz-box-sizing: border-box;
             box-sizing: border-box;
   }
+ 
+/*  [class*="span"] {
+    float: left;
+    min-height: 1px;
+    margin-left: 20px;
+  }
+  */
   .span12,
   .row-fluid .span12 {
     width: 100%;
@@ -1077,6 +915,9 @@
 }
 
 @media (max-width: 480px) {
+    
+  .hidden-visible{visibility: hidden;}
+  
   .nav-collapse {
     -webkit-transform: translate3d(0, 0, 0);
   }
@@ -1128,17 +969,14 @@
   }
 }
 
-@media (max-width: 979px) {
-	.center{
-            width: 540px;
-            margin: 7px auto!important;
-	       }
+/*@media (max-width: 979px) {
+ 
   body {
     padding-top: 0;
   }
   .navbar-fixed-top,
   .navbar-fixed-bottom {
-    position: static;
+    position: fixed;
   }
   .navbar-fixed-top {
     margin-bottom: 20px;
@@ -1148,7 +986,7 @@
   }
   .navbar-fixed-top .navbar-inner,
   .navbar-fixed-bottom .navbar-inner {
-    padding: 5px;
+    padding: 0; Было 5px ненужный паддинг в шапке
   }
   .navbar .container {
     width: auto;
@@ -1282,13 +1120,12 @@
     padding-right: 10px;
     padding-left: 10px;
   }
-}
+}*/
 
 @media (min-width: 980px) {
-.nav-collapse.collapse {
+    
+  .nav-collapse.collapse {
     height: auto !important;
     overflow: visible !important;
   }
-  
-  
 }

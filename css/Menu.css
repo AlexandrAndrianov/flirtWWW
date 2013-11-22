@@ -139,7 +139,7 @@ ul, ol {
     display: block;
     height: 41px;
     position: absolute;
-    top: 20px !important;
+    top: 20px;
     width:41px;
 	margin-top: 4px;
 }
@@ -357,9 +357,8 @@ margin:10px auto !important;
 width: 1046px;
 }
 .container-width{width:100%;}
-#place-viewing{margin:0;width: 97.5%;}
-.leftfoto{margin-left: 47px !important;}
-.nomargin{margin-left: 0 !important}
+#place-viewing{ background: red;}
+
 
 /*Хлебные крошки скрываем любимые места для адаптивного дизайна*/
 .brand-hidden{visibility: hidden;}

@@ -42,8 +42,8 @@
                     
                   <div class="container container-width-header">
                      <!--Хлебные крошки-->
-                        <ul class="input-xxlarge pull-left indent-left2">
-                        <li class="">
+                        <ul class="span6 indent-left2">
+                        <li class="hidden-visible">
                             <a class="brand" href="index.php">
                             <em>Любимые места Пензы /</em></a>
                         </li>

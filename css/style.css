@@ -451,3 +451,10 @@ div.thumbnail h5, div.thumbnail h4, div.thumbnail p {
     font-weight: bold;
     margin-right: 20px;
 }
+
+/*Хлебные крошки
+на разрешении 480 необходимо скрыть, а на высоких 
+разрешениях показать надпись
+Любимые места пензы,
+применяю класс hidden-visible*/
+.hidden-visible{visibility: visible;}

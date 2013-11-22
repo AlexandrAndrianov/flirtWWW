@@ -16,7 +16,6 @@
  
     </head>
     <body>
-	<div class="headerWidth">
         <div class="navbar navbar-inverse navbar-fixed-top"><!-- navigation bar -->
             
             <!--Контейнер с Вход-->
@@ -42,7 +41,7 @@
 
                 <div class="container container-width-header">
                      <!--Хлебные крошки-->
-                        <ul class="input-xxlarge pull-left indent-left2">
+                        <ul class="span6 indent-left2">
                         <li class="">
                             <a class="brand" href="index.php">
                             <em>Любимые места Пензы /</em></a>
@@ -214,7 +213,7 @@
 		</div>
             </div>
 			</div>
-        </div><!-- /navigation bar -->
+<!-- /navigation bar -->
        
 		
 		<!--*****************************Места (тип акордион)-->
