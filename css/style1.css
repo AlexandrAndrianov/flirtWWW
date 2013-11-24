@@ -206,7 +206,7 @@ root {
 	position: absolute;
         width: 100%;
 }
-.hover-slide-second {height: 212px; background: #eee; }
+/*.hover-slide-second {height: 212px; background: #eee; }*/
 /*----------------------------------------------------------------*/
 
 /*Профиль участника*/
@@ -237,12 +237,13 @@ root {
     padding: 10px;
 }
 
-.absolute-side {position: absolute;
+/*.absolute-side {position: absolute;
                background: #fff; 
                z-index: 500; 
                top: 66px;
                left: 98px;
-               width: 1059px;}
+               width: 1059px;
+}*/
 
 .flaer {
     bottom: 12px;
@@ -257,9 +258,9 @@ root {
 .remove {margin-top: 5px; margin-right: 5px;}
 /*Кнопки*/
 .image-button {
-     bottom: 5px;
+     bottom: 3%;/*5px;*/
     position: absolute;
-    right: 5px;
+    right: -2%;/*5px;*/
     }
 /*Кнопки для фильтра*/
 .btn-filter {color: #333333;

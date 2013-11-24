@@ -109,15 +109,15 @@
   }
 }
 
-@media (min-width: 1200px) {
+@media (min-width: 1250px) {
  /******Слайдер*******************************/
     /*Размер фото в слайдере*/
 .hover-slide-block {
 	width: 250px;
-	height: 234px;
+	height: 250px;
 	position: relative;
 	overflow: hidden;
-	/*border: 1px solid;*/
+        margin-bottom: 45px;
 }
 /*Размер информации на фото в слайдере*/
 .image-info {
@@ -129,7 +129,22 @@
     top: 185px;
     width: 100%;
 }
+
+.hover-slide-second {
+    background: none repeat scroll 0 0 #EEEEEE;
+    height: 240px;
+}
 /******КОНЕЦ Слайдер*******************************/
+
+/******Поиск**************************************/
+.absolute-side {position: absolute;
+               background: #fff; 
+               z-index: 500; 
+               top: 87px;
+               left: 50%;
+               margin-left: -455px;
+}
+/******Конец Поиск**************************************/
   .row {
     margin-left: -50px;
     *zoom: 1;
@@ -477,16 +492,38 @@
   .row-fluid .thumbnails {
     margin-left: 0;
   }
+  
+  #ui-menu-left {
+    background-color: #000000;
+    left: 0;
+    position: fixed;
+    top: 88px;
+    transition: width 0.3s ease 0s;
+    width: 42px;
+    z-index: 10;
+}
+#ui-menu-left-sale{width:42px;
+                   left:0;
+                   top:400px;
+                   position:fixed;
+                   background-color:rgba(0,0,0,1);
+                   z-index:10;transition:width .3s;
+                   -webkit-transition:width .3s;
+                   -moz-transition:width .3s;
+                   -ms-transition:width .3s;
+                   -o-transition:width .3s}
+
 }
 
-@media (max-width: 1199) and (min-width: 980px){
+@media (max-width: 1249px) and (min-width: 1000px){
   /******Слайдер*******************************/
     /*Размер фото в слайдере*/
 .hover-slide-block {
-	width: 250px;
-	height: 234px;
+	width: 211px;
+	height: 211px;
 	position: relative;
 	overflow: hidden;
+        margin-bottom: 25px;
 	/*border: 1px solid;*/
 }
 /*Размер информации на фото в слайдере*/
@@ -496,10 +533,26 @@
     color: rgb(255, 255, 255);
     position: absolute;
     text-align: center;
-    top: 185px;
+    top: 160px;
     width: 100%;
 }
+
+.hover-slide-second {
+    background: none repeat scroll 0 0 #EEEEEE;
+    height: 201px;
+}
 /******КОНЕЦ Слайдер*******************************/
+
+/******Поиск**************************************/
+.absolute-side {position: absolute;
+               background: #fff; 
+               z-index: 500; 
+               top: 87px;
+               left: 50%;
+               margin-left: -455px;
+}
+/******Конец Поиск**************************************/
+
   .row {
     margin-left: -50px;
     *zoom: 1;
@@ -846,18 +899,39 @@
   }
   .row-fluid .thumbnails {
     margin-left: 0;
-  }  
+  } 
+  
+  #ui-menu-left {
+    background-color: #000000;
+    left: 0;
+    position: fixed;
+    top: 88px;
+    transition: width 0.3s ease 0s;
+    width: 42px;
+    z-index: 10;
+}
+#ui-menu-left-sale{width:42px;
+                   left:0;
+                   top:400px;
+                   position:fixed;
+                   background-color:rgba(0,0,0,1);
+                   z-index:10;transition:width .3s;
+                   -webkit-transition:width .3s;
+                   -moz-transition:width .3s;
+                   -ms-transition:width .3s;
+                   -o-transition:width .3s}
+
 }
 
-@media (min-width: 768px) and (max-width: 979px) {
-    
-    /******Слайдер*******************************/
+@media (max-width: 999px) and (min-width: 870px){
+      /******Слайдер*******************************/
     /*Размер фото в слайдере*/
 .hover-slide-block {
 	width: 160px;
 	height: 160px;
 	position: relative;
 	overflow: hidden;
+        margin-bottom: 25px;
 	/*border: 1px solid;*/
 }
 /*Размер информации на фото в слайдере*/
@@ -870,8 +944,26 @@
     top: 120px;
     width: 100%;
 }
+
+.hover-slide-second {
+    background: none repeat scroll 0 0 #EEEEEE;
+    height: 203px;
+}
+
+a.btn.btn-primary{padding: 0;}
 /******КОНЕЦ Слайдер*******************************/
     
+/******Поиск**************************************/
+.absolute-side {position: absolute;
+               background: #fff; 
+               z-index: 500; 
+               top: 87px;
+               left: 50%;
+               margin-left: -455px;
+}
+/******Конец Поиск**************************************/
+
+
   .row {
     margin-left: -20px;
     *zoom: 1;
@@ -1210,10 +1302,70 @@
   .uneditable-input.span1 {
     width: 28px;
   }
+  
+  #ui-menu-left {
+    background-color: #000000;
+    left: 0;
+    position: fixed;
+    top: 88px;
+    transition: width 0.3s ease 0s;
+    width: 42px;
+    z-index: 10;
+}
+#ui-menu-left-sale{width:42px;
+                   left:0;
+                   top:400px;
+                   position:fixed;
+                   background-color:rgba(0,0,0,1);
+                   z-index:10;transition:width .3s;
+                   -webkit-transition:width .3s;
+                   -moz-transition:width .3s;
+                   -ms-transition:width .3s;
+                   -o-transition:width .3s}
+
 }
 
-@media (max-width: 767px) {
-  body {
+@media (min-width: 768px) and (max-width: 869px) {
+  
+     /******Слайдер*******************************/
+    /*Размер фото в слайдере*/
+.hover-slide-block {
+	width: 268px;
+	height: 268px;
+	position: relative;
+	overflow: hidden;
+        margin-bottom: 20px;
+	/*border: 1px solid;*/
+}
+/*Размер информации на фото в слайдере*/
+.image-info {
+    background: none repeat scroll 0 0 rgba(0, 0, 0, 0.5);
+    bottom: 0;
+    color: rgb(255, 255, 255);
+    position: absolute;
+    text-align: center;
+    top: 184px;
+    width: 100%;
+}
+
+.hover-slide-second {
+    background: none repeat scroll 0 0 #EEEEEE;
+    height: 258px;
+}
+/******КОНЕЦ Слайдер*******************************/
+
+/******Поиск**************************************/
+.absolute-side {position: absolute;
+               background: #fff; 
+               z-index: 500; 
+               top: 87px;
+               left: 50%;
+               margin-left: -455px;
+}
+/******Конец Поиск**************************************/
+
+
+   body {
     padding-right: 20px;
     padding-left: 20px;
   }
@@ -1231,7 +1383,7 @@
   .navbar-static-top .container,
   .navbar-fixed-top .container,
   .navbar-fixed-bottom .container {
-    width: 370px;
+    width: 87%;
   }
   
   .dl-horizontal dt {
@@ -1244,7 +1396,7 @@
     margin-left: 0;
   }
   .container {
-    width: 200px; /*Было auto*/
+    width: 91%; /*Было auto*/
   }
   .row-fluid {
     width: 100%;
@@ -1257,13 +1409,39 @@
     float: none;
     margin-left: 0;
   }
+  
+  /*Хлебные крошки
+на разрешении 480 необходимо скрыть, а на высоких 
+разрешениях показать надпись
+Любимые места пензы,
+применяю класс hidden-visible*/
+.hidden-visible{visibility: hidden;
+                padding: 0;
+                height: 0;}
+
+.navbar .brand {
+    padding: 11px 0 11px 20px;
+}
+
+.brand.hidden-visible{padding: 0;}
+  
   [class*="span"],
   .uneditable-input[class*="span"],
   .row-fluid [class*="span"] {
     display: block;
     float: left;
+    width: 40%;
+    margin-left: 40px;
+    -webkit-box-sizing: border-box;
+       -moz-box-sizing: border-box;
+            box-sizing: border-box;
+  }
+  
+   #place-viewing [class*="span"] [class*="span"] {
+    display: block;
+    float: left;
     width: 100%;
-    margin-left: 0;
+    margin-left: 10px;
     -webkit-box-sizing: border-box;
        -moz-box-sizing: border-box;
             box-sizing: border-box;
@@ -1275,6 +1453,523 @@
     margin-left: 20px;
   }
   */
+  .span12,
+  .row-fluid .span12 {
+    width: 91%;
+    -webkit-box-sizing: border-box;
+       -moz-box-sizing: border-box;
+            box-sizing: border-box;
+  }
+  .row-fluid [class*="offset"]:first-child {
+    margin-left: 0;
+  }
+  .input-large,
+  .input-xlarge,
+  .input-xxlarge,
+  input[class*="span"],
+  select[class*="span"],
+  textarea[class*="span"],
+  .uneditable-input {
+    display: block;
+    width: 100%;
+    min-height: 30px;
+    -webkit-box-sizing: border-box;
+       -moz-box-sizing: border-box;
+            box-sizing: border-box;
+  }
+  .input-prepend input,
+  .input-append input,
+  .input-prepend input[class*="span"],
+  .input-append input[class*="span"] {
+    display: inline-block;
+    width: auto;
+  }
+  .controls-row [class*="span"] + [class*="span"] {
+    margin-left: 0;
+  }
+  .modal {
+    position: fixed;
+    top: 20px;
+    right: 20px;
+    left: 20px;
+    width: auto;
+    margin: 0;
+  }
+  .modal.fade {
+    top: -100px;
+  }
+  .modal.fade.in {
+    top: 20px;
+  }
+  
+  #ui-menu-left {
+    background-color: #000000;
+    left: 0;
+    position: fixed;
+    top: 88px;
+    transition: width 0.3s ease 0s;
+    width: 42px;
+    z-index: 10;
+}
+#ui-menu-left-sale{width:42px;
+                   left:0;
+                   top:400px;
+                   position:fixed;
+                   background-color:rgba(0,0,0,1);
+                   z-index:10;transition:width .3s;
+                   -webkit-transition:width .3s;
+                   -moz-transition:width .3s;
+                   -ms-transition:width .3s;
+                   -o-transition:width .3s}
+
+}
+
+@media (max-width: 767px) {
+   /******Слайдер*******************************/
+    /*Размер фото в слайдере*/
+.hover-slide-block {
+	width: 428px;
+	height: 428px;
+	position: relative;
+	overflow: hidden;
+        margin-bottom: 20px;
+        margin-left: auto;
+        margin-right: auto;
+	/*border: 1px solid;*/
+}
+/*Размер информации на фото в слайдере*/
+.image-info {
+    background: none repeat scroll 0 0 rgba(0, 0, 0, 0.5);
+    bottom: 0;
+    color: rgb(255, 255, 255);
+    position: absolute;
+    text-align: center;
+    top: 312px;
+    width: 100%;
+}
+
+.hover-slide-second {
+    background: none repeat scroll 0 0 #EEEEEE;
+    height: 412px;
+}
+.thumbnail { padding: 7px;}
+/******КОНЕЦ Слайдер*******************************/
+
+/********HEADER************************************/
+.navbar-inner ul.span6{
+    width: 270px;
+    float: left;
+}
+/********КОНЕЦ HEADER************************************/
+
+/**********Акордион MESTA********************************/
+.collapse {
+    background: none repeat scroll 0 0 #FFFFFF;
+    height: 0;
+    margin: 2px 30px 19px;
+    overflow: hidden;
+    position: relative;
+    transition: height 0.35s ease 0s;
+}
+/**********КОНЕЦ Акордион MESTA********************************/
+
+/******Поиск**************************************/
+.absolute-side {position: absolute;
+               background: #fff; 
+               z-index: 500; 
+               top: 87px;
+               left: 50%;
+               margin-left: -455px;
+}
+/******Конец Поиск**************************************/
+
+   body {
+    padding-right: 20px;
+    padding-left: 20px;
+  }
+  .navbar-fixed-top,
+  .navbar-fixed-bottom,
+  .navbar-static-top {
+    margin-right: 0px;/*-20px Уезжает за пределы*/
+    margin-left: 0px;/*-20px Уезжает за пределы*/
+  }
+  .container-fluid {
+    padding: 0;
+  }
+  
+  .container,
+  .navbar-static-top .container,
+  .navbar-fixed-top .container,
+  .navbar-fixed-bottom .container {
+    width: auto;
+  }
+  
+  .dl-horizontal dt {
+    float: none;
+    width: auto;
+    clear: none;
+    text-align: left;
+  }
+  .dl-horizontal dd {
+    margin-left: 0;
+  }
+  .container {
+    width: 100%; /*Было auto*/
+  }
+  .row-fluid {
+    width: 100%;
+  }
+  .row,
+  .thumbnails {
+    margin-left: 0;
+  }
+  .thumbnails > li {
+    float: none;
+    margin-left: 0;
+  }
+  
+   [class*="span"] {
+    float: none;
+    min-height: 1px;
+    margin-left: 0;
+  }
+  
+    /*Хлебные крошки
+на разрешении 480 необходимо скрыть, а на высоких 
+разрешениях показать надпись
+Любимые места пензы,
+применяю класс hidden-visible*/
+.hidden-visible{visibility: hidden;
+                padding: 0;
+                height: 0;
+                width: 3%;}
+
+.navbar .brand {
+    padding: 11px 0 11px 80px;
+}
+.brand.hidden-visible{padding: 0;}
+  
+  [class*="span"],
+  .uneditable-input[class*="span"],
+  .row-fluid [class*="span"] {
+    display: block;
+    float: none;
+    width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+    -webkit-box-sizing: border-box;
+       -moz-box-sizing: border-box;
+            box-sizing: border-box;
+  }
+  
+   #place-viewing [class*="span"] [class*="span"] {
+    display: block;
+    float: none;
+    width: 100%;
+    margin-left: 0;
+    -webkit-box-sizing: border-box;
+       -moz-box-sizing: border-box;
+            box-sizing: border-box;
+  }
+ 
+  .span12,
+  .row-fluid .span12 {
+    width: 100%;
+    -webkit-box-sizing: border-box;
+       -moz-box-sizing: border-box;
+            box-sizing: border-box;
+  }
+  .row-fluid [class*="offset"]:first-child {
+    margin-left: 0;
+  }
+  .input-large,
+  .input-xlarge,
+  .input-xxlarge,
+  input[class*="span"],
+  select[class*="span"],
+  textarea[class*="span"],
+  .uneditable-input {
+    display: block;
+    width: 100%;
+    min-height: 30px;
+    -webkit-box-sizing: border-box;
+       -moz-box-sizing: border-box;
+            box-sizing: border-box;
+  }
+  .input-prepend input,
+  .input-append input,
+  .input-prepend input[class*="span"],
+  .input-append input[class*="span"] {
+    display: inline-block;
+    width: auto;
+  }
+  .controls-row [class*="span"] + [class*="span"] {
+    margin-left: 0;
+  }
+  .modal {
+    position: fixed;
+    top: 20px;
+    right: 20px;
+    left: 20px;
+    width: auto;
+    margin: 0;
+  }
+  .modal.fade {
+    top: -100px;
+  }
+  .modal.fade.in {
+    top: 20px;
+  }
+  
+  .span6.ident-left2{
+      float: left;
+  }
+  
+  #ui-menu-left {
+    background-color: #000000;
+    left: 0;
+    position: fixed;
+    top: 88px;
+    transition: width 0.3s ease 0s;
+    width: 42px;
+    z-index: 10;
+}
+#ui-menu-left-sale{width:42px;
+                   left:0;
+                   top:400px;
+                   position:fixed;
+                   background-color:rgba(0,0,0,1);
+                   z-index:10;transition:width .3s;
+                   -webkit-transition:width .3s;
+                   -moz-transition:width .3s;
+                   -ms-transition:width .3s;
+                   -o-transition:width .3s}
+
+}
+
+@media (max-width: 664px){
+    /******Слайдер*******************************/
+    /*Размер фото в слайдере*/
+.hover-slide-block {
+	width: 246px;
+	height: 246px;
+	position: relative;
+	overflow: hidden;
+        margin-bottom: 20px;
+        margin-right: auto;
+        margin-left: auto;
+	/*border: 1px solid;*/
+}
+/*Размер информации на фото в слайдере*/
+.image-info {
+    background: none repeat scroll 0 0 rgba(0, 0, 0, 0.5);
+    bottom: 0;
+    color: rgb(255, 255, 255);
+    position: absolute;
+    text-align: center;
+    top: 181px;
+    width: 100%;
+}
+
+.hover-slide-second {
+    background: none repeat scroll 0 0 #EEEEEE;
+    height: 236px;
+} 
+.thumbnail { padding: 4px;}
+/******КОНЕЦ Слайдер*******************************/
+
+/********HEADER************************************/
+.navbar-inner ul.span6{
+    width: 270px;
+    float: left;
+}
+/********КОНЕЦ HEADER************************************/
+
+/******Поиск**************************************/
+.absolute-side {position: absolute;
+               background: #fff; 
+               z-index: 500; 
+               top: 87px;
+               left: 50%;
+               margin-left: -455px;
+}
+/******Конец Поиск**************************************/
+
+
+#ui-menu-left {
+    background-color: #000000;
+    left: 0;
+    position: fixed;
+    top: 88px;
+    transition: width 0.3s ease 0s;
+    width: 42px;
+    z-index: 10;
+}
+#ui-menu-left-sale{width:42px;
+                   left:0;
+                   top:400px;
+                   position:fixed;
+                   background-color:rgba(0,0,0,1);
+                   z-index:10;transition:width .3s;
+                   -webkit-transition:width .3s;
+                   -moz-transition:width .3s;
+                   -ms-transition:width .3s;
+                   -o-transition:width .3s}
+
+}
+
+@media (max-width: 573px){
+    #ui-menu-left {
+    background-color: #000000;
+    left: 0;
+    position: fixed;
+    top: 134px;
+    transition: width 0.3s ease 0s;
+    width: 42px;
+    z-index: 10;
+}
+#ui-menu-left-sale{width:42px;
+   left:0;
+   top:450px;
+   position:fixed;
+   background-color:rgba(0,0,0,1);
+   z-index:10;transition:width .3s;
+   -webkit-transition:width .3s;
+   -moz-transition:width .3s;
+   -ms-transition:width .3s;
+   -o-transition:width .3s
+}
+.collapse {
+  position: relative;
+  overflow: hidden;
+  -webkit-transition: height 0.35s ease;
+  -moz-transition: height 0.35s ease;
+  -o-transition: height 0.35s ease;
+  transition: height 0.35s ease;
+   background: none repeat scroll 0 0 #FFFFFF;
+    height: 0;
+   margin: 30px 39px 19px;
+}
+}
+
+
+@media (max-width: 480px) {
+    
+   /******Слайдер*******************************/
+    /*Размер фото в слайдере*/
+.hover-slide-block {
+	width: 190px;
+	height: 190px;
+	position: relative;
+	overflow: hidden;
+        margin-bottom: 20px;
+        margin-left: auto;
+        margin-right: auto;
+	/*border: 1px solid;*/
+}
+/*Размер информации на фото в слайдере*/
+.image-info {
+    background: none repeat scroll 0 0 rgba(0, 0, 0, 0.5);
+    bottom: 0;
+    color: rgb(255, 255, 255);
+    position: absolute;
+    text-align: center;
+    top: 145px;
+    width: 100%;
+}
+
+.hover-slide-second {
+    background: none repeat scroll 0 0 #EEEEEE;
+    height: 233px;
+} 
+
+/******КОНЕЦ Слайдер*******************************/
+
+/******Поиск**************************************/
+.absolute-side {position: absolute;
+               background: #fff; 
+               z-index: 500; 
+               top: 87px;
+               left: 50%;
+               margin-left: -455px;
+}
+/******Конец Поиск**************************************/
+
+
+   body {
+    padding-right: 20px;
+    padding-left: 20px;
+  }
+  .navbar-fixed-top,
+  .navbar-fixed-bottom,
+  .navbar-static-top {
+    margin-right: 0px;/*-20px Уезжает за пределы*/
+    margin-left: 0px;/*-20px Уезжает за пределы*/
+  }
+  .container-fluid {
+    padding: 0;
+  }
+  
+  .container,
+  .navbar-static-top .container,
+  .navbar-fixed-top .container,
+  .navbar-fixed-bottom .container {
+    width: auto;
+  }
+  
+  .dl-horizontal dt {
+    float: none;
+    width: auto;
+    clear: none;
+    text-align: left;
+  }
+  .dl-horizontal dd {
+    margin-left: 0;
+  }
+  .container {
+    width: 100%; /*Было auto*/
+  }
+  .row-fluid {
+    width: 100%;
+  }
+  .row,
+  .thumbnails {
+    margin-left: 0;
+  }
+  .thumbnails > li {
+    float: none;
+    margin-left: 0;
+  }
+  
+   [class*="span"] {
+    float: none;
+    min-height: 1px;
+    margin-left: 0;
+  }
+  
+  [class*="span"],
+  .uneditable-input[class*="span"],
+  .row-fluid [class*="span"] {
+    display: block;
+    float: none;
+    width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+    -webkit-box-sizing: border-box;
+       -moz-box-sizing: border-box;
+            box-sizing: border-box;
+  }
+  
+   #place-viewing [class*="span"] [class*="span"] {
+    display: block;
+    float: none;
+    width: 100%;
+    margin-left: 0;
+    -webkit-box-sizing: border-box;
+       -moz-box-sizing: border-box;
+            box-sizing: border-box;
+  }
+ 
   .span12,
   .row-fluid .span12 {
     width: 100%;
@@ -1325,60 +2020,151 @@
   }
 }
 
-@media (max-width: 480px) {
-    
-  .hidden-visible{visibility: hidden;}
+/*@media (max-width: 380px){
+      *****Слайдер******************************
+    Размер фото в слайдере
+.hover-slide-block {
+	width: 100%;
+	height: 155px;
+	position: relative;
+	overflow: hidden;
+        margin-bottom: 20px;
+	border: 1px solid;
+}
+Размер информации на фото в слайдере
+.image-info {
+    background: none repeat scroll 0 0 rgba(0, 0, 0, 0.5);
+    bottom: 0;
+    color: rgb(255, 255, 255);
+    position: absolute;
+    text-align: center;
+    top: 111px;
+    width: 100%;
+}
+*****КОНЕЦ Слайдер******************************
+   body {
+    padding-right: 20px;
+    padding-left: 20px;
+  }
+  .navbar-fixed-top,
+  .navbar-fixed-bottom,
+  .navbar-static-top {
+    margin-right: 0px;-20px Уезжает за пределы
+    margin-left: 0px;-20px Уезжает за пределы
+  }
+  .container-fluid {
+    padding: 0;
+  }
   
-  .nav-collapse {
-    -webkit-transform: translate3d(0, 0, 0);
+  .container,
+  .navbar-static-top .container,
+  .navbar-fixed-top .container,
+  .navbar-fixed-bottom .container {
+    width: auto;
   }
-  .page-header h1 small {
-    display: block;
-    line-height: 20px;
-  }
-  input[type="checkbox"],
-  input[type="radio"] {
-    border: 1px solid #ccc;
-  }
-  .form-horizontal .control-label {
+  
+  .dl-horizontal dt {
     float: none;
     width: auto;
-    padding-top: 0;
+    clear: none;
     text-align: left;
   }
-  .form-horizontal .controls {
+  .dl-horizontal dd {
     margin-left: 0;
   }
-  .form-horizontal .control-list {
-    padding-top: 0;
+  .container {
+    width: 100%; Было auto
   }
-  .form-horizontal .form-actions {
-    padding-right: 10px;
-    padding-left: 10px;
+  .row-fluid {
+    width: 100%;
   }
-  .media .pull-left,
-  .media .pull-right {
+  .row,
+  .thumbnails {
+    margin-left: 0;
+  }
+  .thumbnails > li {
+    float: none;
+    margin-left: 0;
+  }
+  
+   [class*="span"] {
+    float: none;
+    min-height: 1px;
+    margin-left: 0;
+  }
+  
+  [class*="span"],
+  .uneditable-input[class*="span"],
+  .row-fluid [class*="span"] {
     display: block;
     float: none;
-    margin-bottom: 10px;
+    width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+    -webkit-box-sizing: border-box;
+       -moz-box-sizing: border-box;
+            box-sizing: border-box;
   }
-  .media-object {
-    margin-right: 0;
+  
+   #place-viewing [class*="span"] [class*="span"] {
+    display: block;
+    float: none;
+    width: 100%;
+    margin-left: 0;
+    -webkit-box-sizing: border-box;
+       -moz-box-sizing: border-box;
+            box-sizing: border-box;
+  }
+ 
+  .span12,
+  .row-fluid .span12 {
+    width: 100%;
+    -webkit-box-sizing: border-box;
+       -moz-box-sizing: border-box;
+            box-sizing: border-box;
+  }
+  .row-fluid [class*="offset"]:first-child {
+    margin-left: 0;
+  }
+  .input-large,
+  .input-xlarge,
+  .input-xxlarge,
+  input[class*="span"],
+  select[class*="span"],
+  textarea[class*="span"],
+  .uneditable-input {
+    display: block;
+    width: 100%;
+    min-height: 30px;
+    -webkit-box-sizing: border-box;
+       -moz-box-sizing: border-box;
+            box-sizing: border-box;
+  }
+  .input-prepend input,
+  .input-append input,
+  .input-prepend input[class*="span"],
+  .input-append input[class*="span"] {
+    display: inline-block;
+    width: auto;
+  }
+  .controls-row [class*="span"] + [class*="span"] {
     margin-left: 0;
   }
   .modal {
-    top: 10px;
-    right: 10px;
-    left: 10px;
+    position: fixed;
+    top: 20px;
+    right: 20px;
+    left: 20px;
+    width: auto;
+    margin: 0;
   }
-  .modal-header .close {
-    padding: 10px;
-    margin: -10px;
+  .modal.fade {
+    top: -100px;
   }
-  .carousel-caption {
-    position: static;
+  .modal.fade.in {
+    top: 20px;
   }
-}
+}*/
 
 /*@media (max-width: 979px) {
  

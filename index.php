@@ -35,22 +35,25 @@
                     <a href=""><img src="img/icon/logo.png"/></a>
                 </div>
 				
-                <div class="container container-width-header">
+<!--                <div class="container container-width-header">
+                    <a class="brand brand-left" href="index.php">
+                        <em>Любимые места/</em><a class="brand" href="fun1.php"><em>Развлечение и отдых</em></a>
+                    -->
+                    
+                  <div class="container container-width-header">
                      <!--Хлебные крошки-->
-                        <ul class="input-xxlarge pull-left indent-left2">
+                        <ul class="span6 indent-left2">
+                        <li>
+                            <a class="brand hidden-visible" href="index.php">
+                            <em>Любимые места Пензы /</em></a>
+                        </li>
                         <li class="">
                             <a class="brand" href="index.php">
-                            <em>Любимые места Пензы</em></a>
+                            <em>Развлечение и отдых</em></a>
                         </li>
-<!--                        <li class="">
-                            <a class="brand" href="index.php">
-                            <em>Любимые места Пензы</em></a>
-                        </li>-->
                         <li class="clear"></li>
                         </ul>
                         <!--КОНЕЦ Хлебные крошки-->
-
-                       
                     
  <!--                   <ul class="nav">
                         <li><a href="member-my-page.html">Моя страница</a></li>
@@ -101,7 +104,7 @@
                             </button>
                         </li>
                         <li>
-                            <button class="btn message" type="button" data-toggle="collapse" 
+                            <button class="btn message margin-right-normal" type="button" data-toggle="collapse" 
                                     data-target="#advanced-search">
                                 <i class="icon-search dropdown"></i>
                             </button>
@@ -209,9 +212,9 @@
                             </div>
                         </div>
  
-				</div>
-            </div>
-        </div><!-- /navigation bar -->
+                    </div>
+                  </div>
+		</div><!-- /navigation bar -->
        
 		
 		<!--*****************************Места (тип акордион)-->

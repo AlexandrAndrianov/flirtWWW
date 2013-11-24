@@ -3442,10 +3442,10 @@ input[type="submit"].btn.btn-mini {
   color: #777777;
 }
 .navbar-link {
-  color: #777777;
+  color: #fff;
 }
 .navbar-link:hover {
-  color: #333333;
+  color: #6495ed;
 }
 .navbar .divider-vertical {
   height: 40px;
@@ -4121,6 +4121,7 @@ input[type="submit"].btn.btn-mini {
   -o-transition: all 0.2s ease-in-out;
   transition: all 0.2s ease-in-out;
   background: #fff;
+  border: 1px solid #CCCCCC;
 }
 /*a.thumbnail:hover {
   border-color: #0088cc;
@@ -5151,9 +5152,7 @@ button.close {
   transition: height 0.35s ease;
    background: none repeat scroll 0 0 #FFFFFF;
     height: 0;
-   margin: 2px 100px 19px;
-   width: 1059px;
-
+   margin: 2px 2px 19px;
 }
 .collapse.in {
   height: auto;

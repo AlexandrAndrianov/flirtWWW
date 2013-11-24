@@ -83,6 +83,7 @@ body {padding-top: 84px;}
 /*.bg-1 {background: url(../img/bg-1.jpg) no-repeat center center;}*/
 
 body {background: url("../img/bg.png") repeat scroll center rgba(0, 0, 0, 0);}
+/*body{background: black;}*/
 .bg-2  {background: url("../img/bg.png") !important;}
 
 /* Страница профиля */
@@ -451,10 +452,3 @@ div.thumbnail h5, div.thumbnail h4, div.thumbnail p {
     font-weight: bold;
     margin-right: 20px;
 }
-
-/*Хлебные крошки
-на разрешении 480 необходимо скрыть, а на высоких 
-разрешениях показать надпись
-Любимые места пензы,
-применяю класс hidden-visible*/
-.hidden-visible{visibility: visible;}

@@ -15,7 +15,6 @@
  
     </head>
     <body>
-	<div class="headerWidth">
         <div class="navbar navbar-inverse navbar-fixed-top"><!-- navigation bar -->
             
             <!--Контейнер с Вход-->
@@ -43,8 +42,8 @@
                   <div class="container container-width-header">
                      <!--Хлебные крошки-->
                         <ul class="span6 indent-left2">
-                        <li class="hidden-visible">
-                            <a class="brand" href="index.php">
+                        <li>
+                            <a class="brand hidden-visible" href="index.php">
                             <em>Любимые места Пензы /</em></a>
                         </li>
                         <li class="">
@@ -104,23 +103,24 @@
                             </button>
                         </li>
                         <li>
-                            <button class="btn message" type="button" data-toggle="collapse" 
+                            <button class="btn message margin-right-normal" type="button" data-toggle="collapse" 
                                     data-target="#advanced-search">
                                 <i class="icon-search dropdown"></i>
                             </button>
                         </li>
                     </ul>
-                    
-					 <div id="advanced-search" class="absolute-side collapse redcollapse-search" >                   
+             <div class="container"> 
+               <div class="row">  
+		<div id="advanced-search" class="absolute-side collapse redcollapse-search" >                   
                          <!--Кнопка закрыть окно-->                       
                          <button class="close" data-target="#advanced-search" data-toggle="collapse" type="button">
                             x
                          </button>
                          <!--КОНЕЦ Кнопка закрыть окно-->
-                         
+ 
                          <div class="row calendar-conteiner">
-                            <div class="span9 margin-left">
-                                <div class="row span11">
+                            <div class="row">
+                                <div class="span9">
                                     <div class="span7">
                                         
                                             <select class="inputSity  span2 margin-right-small">
@@ -144,16 +144,14 @@
                                             </select>
                                         
                                             <input class="span3" type="text">
-                                    </div>
                                     
-                                    <div class="span1">
+                                 </div>  
+                                    <div class="input-small">
                                         <button class="btn btn-block btn-primary  nomargin">Найти</button>
                                     </div>
                                 </div>
-                                <div>
-                                    <div class="span2 feature"> <!--class feature Menu.css-->
-                                           <label>Расширенный поиск</label>
-                                    </div>
+                            </div>
+                               <div>
                                     <div class="row nomargin span9">
                                         <div class="span9 border-bottom"></div>
                                     </div>
@@ -207,20 +205,22 @@
                                 </div>    
                                      <div class="span1 clear right margin-right">
                                         <button class="btn btn-block btn-primary  nomargin">Фильтр</button>
-                                    </div>
                                 </div>
-                            </div>
-                        </div>
- 
-				</div>
+                          
+                        </div><!--advanced-search-->
+
+                       </div><!--row--> 
+                     </div><!--container-->
+		</div>
             </div>
-			</div>
-        </div><!-- /navigation bar -->
+			</div><!-- /navigation bar -->
        
 		
 		<!--*****************************Места (тип акордион)-->
-        <div id="mesta" class="collapse center">
-            <div class="accordion-group"> 
+       <div class="container">
+          <div class="row-fluid"> 
+            <div id="mesta" class="collapse">
+                 <div class="accordion-group"> 
                         <!--нопка закрыть окно-->
                        <div> 
                          <button class="close" data-target="#mesta" data-toggle="collapse" type="button">
@@ -240,8 +240,10 @@
                                     <button class="btn message margin-right-normal buttomdesignated" type="submit"/>Арбековская застава</button> 
 	
                             <!--КОНЕЦ Заполнение-->
-                </div>
-            </div>   
+                    </div>
+                </div> <!--id=mesta-->
+              </div><!--row-fluid-->
+          </div><!-- container-->
          </div>  
         <!--КОНЕЦ Места (тип акордион)-->
 		
@@ -250,8 +252,7 @@
             <div class="row"> <!-- row12 Список мест -->
 
                 <div class="span12"> <!-- span12 Список мест -->
-                    <div class="row"> <!-- Места -->
-				<div class="center">		
+                    <div class="row"> <!-- Места -->	
                         <div class="span3">
                             <div class="hover-slide-block">
                                 <div class="hover-slide-inner">
@@ -260,7 +261,171 @@
                                             <div class="profile-icon nomargin type">
                                                 <img src="img/icon/iconcolor/Control_Panel_alt.png">
                                             </div>
-                                            <img src="img/4651.png">
+                                            <img src="img/6004651.png">
+                                            <div class="image-info"><i class="icon-user icon-white"></i>: 365 234</div>
+                                        </div>
+                                    </div>
+                                    <div class="thumbnail">
+                                        <div class="hover-slide-second">
+                                            <div class="block">
+
+                                                <div class="profile-icon nomargin pull-left">
+                                                    <img src="img/icon/iconcolor/Control_Panel_alt.png">
+                                                </div>
+                                                <h4 class="head-shift">Тип места</h4>
+                                                <div class="clear"></div>
+                                            </div>
+                                            <div class="about-bottom">
+                                                <div class="block">
+                                                    <div class="margin-top-normal margin-left-lager">
+                                                        <a href="">Название места</a>
+                                                    </div>    
+                                                    <div class="margin-top-small margin-left-lager">
+                                                        г. Пенза, ул. Гагаринавапввапва пвапвапвпвап 2
+                                                    </div>    
+                                                    <div class="margin-top-normal margin-left-lager flaer">
+                                                        <a class="btn btn-primary" href="place-viewing.html">Подробнее</a>
+                                                        <a class="btn btn-primary" href="#"><i class="icon-star icon-white"></i></a> 
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="span3">
+                            <div class="hover-slide-block">
+                                <div class="hover-slide-inner">
+                                    <div class="thumbnail">
+                                        <div class="image-container">
+                                            <div class="profile-icon nomargin type">
+                                                <img src="img/icon/iconcolor/Control_Panel_alt.png">
+                                            </div>
+                                            <img src="img/6004651.png">
+                                            <div class="image-info"><i class="icon-user icon-white"></i>: 365 234</div>
+                                        </div>
+                                    </div>
+                                    <div class="thumbnail">
+                                        <div class="hover-slide-second">
+                                            <div class="block">
+
+                                                <div class="profile-icon nomargin pull-left">
+                                                    <img src="img/icon/iconcolor/Control_Panel_alt.png">
+                                                </div>
+                                                <h4 class="head-shift">Тип места</h4>
+                                                <div class="clear"></div>
+                                            </div>
+                                            <div class="about-bottom">
+                                                <div class="block">
+                                                    <div class="margin-top-normal margin-left-lager">
+                                                        <a href="">Название места</a>
+                                                    </div>    
+                                                    <div class="margin-top-small margin-left-lager">
+                                                        г. Пенза, ул. Гагарина 2
+                                                    </div>    
+                                                    <div class="margin-top-normal margin-left-lager flaer">
+                                                        <a class="btn btn-primary" href="place-viewing.html">Подробнее</a>
+                                                        <a class="btn btn-primary" href="#"><i class="icon-star icon-white"></i></a> 
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="span3">
+                            <div class="hover-slide-block">
+                                <div class="hover-slide-inner">
+                                    <div class="thumbnail">
+                                        <div class="image-container">
+                                            <div class="profile-icon nomargin type">
+                                                <img src="img/icon/iconcolor/Control_Panel_alt.png">
+                                            </div>
+                                            <img src="img/6004651.png">
+                                            <div class="image-info"><i class="icon-user icon-white"></i>: 365 234</div>
+                                        </div>
+                                    </div>
+                                    <div class="thumbnail">
+                                        <div class="hover-slide-second">
+                                            <div class="block">
+
+                                                <div class="profile-icon nomargin pull-left">
+                                                    <img src="img/icon/iconcolor/Control_Panel_alt.png">
+                                                </div>
+                                                <h4 class="head-shift">Тип места</h4>
+                                                <div class="clear"></div>
+                                            </div>
+                                            <div class="about-bottom">
+                                                <div class="block">
+                                                    <div class="margin-top-normal margin-left-lager">
+                                                        <a href="">Название места</a>
+                                                    </div>    
+                                                    <div class="margin-top-small margin-left-lager">
+                                                        г. Пенза, ул. Гагарина 2
+                                                    </div>    
+                                                    <div class="margin-top-normal margin-left-lager flaer">
+                                                        <a class="btn btn-primary" href="place-viewing.html">Подробнее</a>
+                                                        <a class="btn btn-primary" href="#"><i class="icon-star icon-white"></i></a> 
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                         <div class="span3">
+                            <div class="hover-slide-block">
+                                <div class="hover-slide-inner">
+                                    <div class="thumbnail">
+                                        <div class="image-container">
+                                            <div class="profile-icon nomargin type">
+                                                <img src="img/icon/iconcolor/Control_Panel_alt.png">
+                                            </div>
+                                            <img src="img/6004651.png">
+                                            <div class="image-info"><i class="icon-user icon-white"></i>: 365 234</div>
+                                        </div>
+                                    </div>
+                                    <div class="thumbnail">
+                                        <div class="hover-slide-second">
+                                            <div class="block">
+
+                                                <div class="profile-icon nomargin pull-left">
+                                                    <img src="img/icon/iconcolor/Control_Panel_alt.png">
+                                                </div>
+                                                <h4 class="head-shift">Тип места</h4>
+                                                <div class="clear"></div>
+                                            </div>
+                                            <div class="about-bottom">
+                                                <div class="block">
+                                                    <div class="margin-top-normal margin-left-lager">
+                                                        <a href="">Название места</a>
+                                                    </div>    
+                                                    <div class="margin-top-small margin-left-lager">
+                                                        г. Пенза, ул. Гагарина 2
+                                                    </div>    
+                                                    <div class="margin-top-normal margin-left-lager flaer">
+                                                        <a class="btn btn-primary" href="place-viewing.html">Подробнее</a>
+                                                        <a class="btn btn-primary" href="#"><i class="icon-star icon-white"></i></a> 
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="span3">
+                            <div class="hover-slide-block">
+                                <div class="hover-slide-inner">
+                                    <div class="thumbnail">
+                                        <div class="image-container">
+                                            <div class="profile-icon nomargin type">
+                                                <img src="img/icon/iconcolor/Control_Panel_alt.png">
+                                            </div>
+                                            <img src="img/6004651.png">
                                             <div class="image-info"><i class="icon-user icon-white"></i>: 365 234</div>
                                         </div>
                                     </div>
@@ -301,7 +466,7 @@
                                             <div class="profile-icon nomargin type">
                                                 <img src="img/icon/iconcolor/Limewire_alt.png">
                                             </div>
-                                            <img src="img/4651.png">
+                                            <img src="img/6004651.png">
                                             <div class="image-info"><i class="icon-user icon-white"></i>: 365 234</div>
                                         </div>
                                     </div>
@@ -339,7 +504,7 @@
                                 <div class="hover-slide-inner">
                                     <div class="thumbnail">
                                         <div class="image-container">
-                                            <img src="img/4651.png">
+                                            <img src="img/6004651.png">
                                             <div class="image-info"><i class="icon-user icon-white"></i>: 365 234</div>
                                         </div>
                                     </div>
@@ -361,7 +526,7 @@
                                 <div class="hover-slide-inner">
                                     <div class="thumbnail">
                                         <div class="image-container">
-                                            <img src="img/4651.png">
+                                            <img src="img/6004651.png">
                                             <div class="image-info"><i class="icon-user icon-white"></i>: 365 234</div>
                                         </div>
                                     </div>
@@ -378,8 +543,7 @@
                                 </div>
                             </div>
                         </div>
-					<div class="clear"></div>
-					   </div>
+                        <div class="clear"></div>
                     </div>  
                    
                     <div class="pagination pagination-centered">

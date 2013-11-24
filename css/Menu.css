@@ -1,5 +1,16 @@
 
-#ui-menu-left{width:42px;left:0;top:88px;position:fixed;background-color:rgba(0,0,0,1);z-index:10;transition:width .3s;-webkit-transition:width .3s;-moz-transition:width .3s;-ms-transition:width .3s;-o-transition:width .3s}
+/*#ui-menu-left{width:42px;
+              left:0;
+              top:88px;
+              position:fixed;
+              background-color:rgba(0,0,0,1);
+              z-index:10;
+              transition:width .3s;
+              -webkit-transition:width .3s;
+              -moz-transition:width .3s;
+              -ms-transition:width .3s;
+              -o-transition:width .3s}*/
+
 #ui-menu-left .ui-menu-left-ad{display:none}#ui-menu-left .ui-menu-left-ad .advert{margin:20px auto}
 #ui-menu-left a.ui-menu-button{position:relative;
                transition-duration:.3s;
@@ -238,7 +249,18 @@ Back to top button
 
 
 /*Одиночное меню левое меню........----------------------------------------------------.*/
-#ui-menu-left-sale{width:42px;left:0;top:400px;position:fixed;background-color:rgba(0,0,0,1);z-index:10;transition:width .3s;-webkit-transition:width .3s;-moz-transition:width .3s;-ms-transition:width .3s;-o-transition:width .3s}#ui-menu-left-sale .ui-menu-left-sale-ad{display:none}#ui-menu-left-sale .ui-menu-left-sale-ad .advert{margin:20px auto}
+/*#ui-menu-left-sale{width:42px;
+                   left:0;
+                   top:400px;
+                   position:fixed;
+                   background-color:rgba(0,0,0,1);
+                   z-index:10;transition:width .3s;
+                   -webkit-transition:width .3s;
+                   -moz-transition:width .3s;
+                   -ms-transition:width .3s;
+                   -o-transition:width .3s}*/
+
+#ui-menu-left-sale .ui-menu-left-sale-ad{display:none}#ui-menu-left-sale .ui-menu-left-sale-ad .advert{margin:20px auto}
 #ui-menu-left-sale a.ui-menu-button{position:relative;
                transition-duration:.3s;
                -moz-transition-duration:.3s;
@@ -346,10 +368,10 @@ ul, ol {
 	margin-bottom: 15px;
 }
 /*Button Поиск*/
-.redcollapse-search{
+/*.redcollapse-search{
 	margin:22px 0 0 1px !important;
 	width:1058px;
-}
+}*/
 /*Главный контейнер страницы подробно place0viewing*/
 .containerReight
 {
