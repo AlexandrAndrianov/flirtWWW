@@ -385,3 +385,5 @@ width: 1046px;
 /*Хлебные крошки скрываем любимые места для адаптивного дизайна*/
 .brand-hidden{visibility: hidden;}
 
+.ui-top-menu-logo a,
+.footer a{display: inline-block;}

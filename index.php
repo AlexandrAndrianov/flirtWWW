@@ -111,7 +111,7 @@
                         </li>
                     </ul>
                     
-					 <div id="advanced-search" class="absolute-side collapse redcollapse-search" >                   
+		<div id="advanced-search" class="absolute-side collapse redcollapse-search" >                   
                          <!--Кнопка закрыть окно-->                       
                          <button class="close" data-target="#advanced-search" data-toggle="collapse" type="button">
                             x

@@ -144,6 +144,17 @@
                left: 50%;
                margin-left: -455px;
 }
+
+#advanced-search .btn-block{
+  display: block;
+  width: 100%;
+  padding-left: 0;
+  padding-right: 0;
+  margin-left: 10px;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
 /******Конец Поиск**************************************/
   .row {
     margin-left: -50px;
@@ -549,7 +560,18 @@
                z-index: 500; 
                top: 87px;
                left: 50%;
-               margin-left: -455px;
+               margin-left: -376px;
+}
+
+#advanced-search .btn-block{
+  display: block;
+  width: 100%;
+  padding-left: 0;
+  padding-right: 0;
+  margin-left: 10px;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
 }
 /******Конец Поиск**************************************/
 
@@ -959,7 +981,18 @@ a.btn.btn-primary{padding: 0;}
                z-index: 500; 
                top: 87px;
                left: 50%;
-               margin-left: -455px;
+               margin-left: -305px;
+}
+
+#advanced-search .btn-block{
+  display: block;
+  width: 100%;
+  padding-left: 0;
+  padding-right: 0;
+  margin-left: 10px;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
 }
 /******Конец Поиск**************************************/
 
@@ -1355,12 +1388,25 @@ a.btn.btn-primary{padding: 0;}
 /******КОНЕЦ Слайдер*******************************/
 
 /******Поиск**************************************/
+
+  
 .absolute-side {position: absolute;
                background: #fff; 
                z-index: 500; 
                top: 87px;
                left: 50%;
-               margin-left: -455px;
+               margin-left: -365px;
+}
+
+#advanced-search .btn-block{
+  display: block;
+  width: 100%;
+  padding-left: 0;
+  padding-right: 0;
+  margin-left: 10px;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
 }
 /******Конец Поиск**************************************/
 
@@ -1436,6 +1482,10 @@ a.btn.btn-primary{padding: 0;}
        -moz-box-sizing: border-box;
             box-sizing: border-box;
   }
+  
+  #advanced-search [class*="span"]{
+    width: 86%;
+}
   
    #place-viewing [class*="span"] [class*="span"] {
     display: block;
@@ -1579,8 +1629,20 @@ a.btn.btn-primary{padding: 0;}
                z-index: 500; 
                top: 87px;
                left: 50%;
-               margin-left: -455px;
+               margin-left: -305px;
 }
+
+#advanced-search .btn-block{
+  display: block;
+  width: 100%;
+  padding-left: 0;
+  padding-right: 0;
+  margin-left: 39px;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
 /******Конец Поиск**************************************/
 
    body {
@@ -1661,6 +1723,10 @@ a.btn.btn-primary{padding: 0;}
        -moz-box-sizing: border-box;
             box-sizing: border-box;
   }
+  
+    #advanced-search [class*="span"]{
+    width: 86%;
+}
   
    #place-viewing [class*="span"] [class*="span"] {
     display: block;
@@ -1791,7 +1857,18 @@ a.btn.btn-primary{padding: 0;}
                z-index: 500; 
                top: 87px;
                left: 50%;
-               margin-left: -455px;
+               margin-left: -255px;
+}
+
+#advanced-search .btn-block{
+  display: block;
+  width: 100%;
+  padding-left: 0;
+  padding-right: 0;
+  margin-left: 33px;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
 }
 /******Конец Поиск**************************************/
 
@@ -1850,6 +1927,26 @@ a.btn.btn-primary{padding: 0;}
     height: 0;
    margin: 30px 39px 19px;
 }
+/******Поиск**************************************/
+.absolute-side {position: absolute;
+               background: #fff; 
+               z-index: 500; 
+               top: 87px;
+               left: 50%;
+               margin-left: -212px;
+}
+
+#advanced-search .btn-block{
+  display: block;
+  width: 100%;
+  padding-left: 0;
+  padding-right: 0;
+  margin-left: 28px;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+/******Конец Поиск**************************************/
 }
 
 
@@ -1891,7 +1988,18 @@ a.btn.btn-primary{padding: 0;}
                z-index: 500; 
                top: 87px;
                left: 50%;
-               margin-left: -455px;
+               margin-left: -112px;
+}
+
+#advanced-search .btn-block{
+  display: block;
+  width: 100%;
+  padding-left: 0;
+  padding-right: 0;
+  margin-left: 19px;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
 }
 /******Конец Поиск**************************************/
 
