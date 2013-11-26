@@ -1050,6 +1050,9 @@ a.btn.btn-primary{padding: 0;}
 /**********Хлебные крошки страница index.php************/
 .visible-hidden{visibility: hidden;}
 .navbar .brand.visible-hidden{padding: 0;}
+.navbar .brand {
+  padding: 10px 0px 12px 3px;
+}
 /**********КОНЕЦ Хлебные крошки страница index.php******/
 
 /*******Заголовок карты*********************************/
@@ -1634,17 +1637,14 @@ a.btn.btn-primary{padding: 0;}
   }
   .modal {
     position: fixed;
-    top: 20px;
-    right: 20px;
-    left: 20px;
-    width: auto;
-    margin: 0;
+    left: 50%;
+    margin-left: -240px;
   }
   .modal.fade {
     top: -100px;
   }
   .modal.fade.in {
-    top: 20px;
+    top: 10%;
   }
   
   #ui-menu-left {
@@ -1890,19 +1890,16 @@ a.btn.btn-primary{padding: 0;}
   .controls-row [class*="span"] + [class*="span"] {
     margin-left: 0;
   }
-  .modal {
+.modal {
     position: fixed;
-    top: 20px;
-    right: 20px;
-    left: 20px;
-    width: auto;
-    margin: 0;
+    left: 50%;
+    margin-left: -240px;
   }
   .modal.fade {
     top: -100px;
   }
   .modal.fade.in {
-    top: 20px;
+    top: 10%;
   }
   
   .span6.ident-left2{

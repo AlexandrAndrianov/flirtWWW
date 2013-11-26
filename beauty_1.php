@@ -15,7 +15,6 @@
  
     </head>
     <body>
-	<div class="headerWidth">
         <div class="navbar navbar-inverse navbar-fixed-top"><!-- navigation bar -->
             
             <!--Контейнер с Вход-->
@@ -37,13 +36,14 @@
 				
 <!--                <div class="container container-width-header">
                     <a class="brand brand-left" href="index.php">
-                        <em>Любимые места/</em><a class="brand" href="beauty_1.php"><em>Красота и здоровье</em></a>-->
-
-                 <div class="container container-width-header">
+                        <em>Любимые места/</em><a class="brand" href="fun1.php"><em>Развлечение и отдых</em></a>
+                    -->
+                    
+                  <div class="container container-width-header">
                      <!--Хлебные крошки-->
-                        <ul class="input-xxlarge pull-left indent-left2">
-                        <li class="">
-                            <a class="brand" href="index.php">
+                        <ul class="span6 indent-left2">
+                        <li>
+                            <a class="brand hidden-visible" href="index.php">
                             <em>Любимые места Пензы /</em></a>
                         </li>
                         <li class="">
@@ -103,14 +103,21 @@
                             </button>
                         </li>
                         <li>
-                            <button class="btn message" type="button" data-toggle="collapse" 
+                            <button class="btn message margin-right-normal" type="button" data-toggle="collapse" 
                                     data-target="#advanced-search">
                                 <i class="icon-search dropdown"></i>
                             </button>
                         </li>
                     </ul>
-                    
-					 <div id="advanced-search" class="absolute-side collapse redcollapse-search" >                   
+
+                 
+                 </div>
+            </div>
+ 
+         </div><!-- /navigation bar -->
+   
+<!--    расширенный поиск     -->
+	  <div id="advanced-search" class="absolute-side collapse redcollapse-search" >                   
                          <!--Кнопка закрыть окно-->                       
                          <button class="close" data-target="#advanced-search" data-toggle="collapse" type="button">
                             x
@@ -118,8 +125,8 @@
                          <!--КОНЕЦ Кнопка закрыть окно-->
                          
                          <div class="row calendar-conteiner">
-                            <div class="span9 margin-left">
-                                <div class="row span11">
+                            <div class="span9">
+                                <div class="row">
                                     <div class="span7">
                                         
                                             <select class="inputSity  span2 margin-right-small">
@@ -144,82 +151,82 @@
                                         
                                             <input class="span3" type="text">
                                     </div>
-                                    
-                                    <div class="span1">
-                                        <button class="btn btn-block btn-primary  nomargin">Найти</button>
+                                      
+                                    <div class="input-small">
+                                         <button class="btn btn-block btn-primary">Найти</button>
                                     </div>
+
+                                </div>    
+
+                                <div class="row">
+                                   <div class="span8 border-bottom"></div>
                                 </div>
-                                <div>
-                                    <div class="span2 feature"> <!--class feature Menu.css-->
-                                           <label>Расширенный поиск</label>
-                                    </div>
-                                    <div class="row nomargin span9">
-                                        <div class="span9 border-bottom"></div>
-                                    </div>
-                                    <div class="clear"></div>
-                                </div>
-                                <div class="span6">
+                                <div class="row">
+                                    <div class="span7">
                                   
                                     <div  data-toggle="buttons-checkbox">
                                             <label class="margin-top">Цель визита</Label>
-                                            <button class="btn message margin-right-small" type="button">Слева</button>
-                                            <button class="btn message margin-right-small" type="button">Посредине</button>
-                                            <button class="btn message margin-right-small" type="button">Справа</button>
-                                            <button class="btn message margin-right-small" type="button">Слева</button>
-                                            <button class="btn message margin-right-small" type="button">Посредине</button>
-                                            <button class="btn message margin-right-small" type="button">Справа</button>
+                                            <button class="btn message margin-right-small indent-bottom5" type="button">Слева</button>
+                                            <button class="btn message margin-right-small indent-bottom5" type="button">Посредине</button>
+                                            <button class="btn message margin-right-small indent-bottom5" type="button">Справа</button>
+                                            <button class="btn message margin-right-small indent-bottom5" type="button">Слева</button>
+                                            <button class="btn message margin-right-small indent-bottom5" type="button">Посредине</button>
+                                            <button class="btn message margin-right-small indent-bottom5" type="button">Справа</button>
                                     </div>
                   
                                     <div  data-toggle="buttons-checkbox">
                                             <label class="margin-top">Расходы</Label>
-                                            <button class="btn message margin-right-small" type="button">Слева</button>
-                                            <button class="btn message margin-right-small" type="button">Посредине</button>
-                                            <button class="btn message margin-right-small" type="button">Справа</button>
-                                            <button class="btn message margin-right-small" type="button">Слева</button>
-                                            <button class="btn message margin-right-small" type="button">Посредине</button>
-                                            <button class="btn message margin-right-small" type="button">Справа</button>
+                                            <button class="btn message margin-right-small indent-bottom5" type="button">Слева</button>
+                                            <button class="btn message margin-right-small indent-bottom5" type="button">Посредине</button>
+                                            <button class="btn message margin-right-small indent-bottom5" type="button">Справа</button>
+                                            <button class="btn message margin-right-small indent-bottom5" type="button">Слева</button>
+                                            <button class="btn message margin-right-small indent-bottom5" type="button">Посредине</button>
+                                            <button class="btn message margin-right-small indent-bottom5" type="button">Справа</button>
                                     </div>
                                     <div  data-toggle="buttons-checkbox">
                                             <label class="margin-top">Время работы</Label>
-                                            <button class="btn message margin-right-small" type="button">Слева</button>
-                                            <button class="btn message margin-right-small" type="button">Посредине</button>
-                                            <button class="btn message margin-right-small" type="button">Справа</button>
-                                            <button class="btn message margin-right-small" type="button">Слева</button>
-                                            <button class="btn message margin-right-small" type="button">Посредине</button>
-                                            <button class="btn message margin-right-small" type="button">Справа</button>
+                                            <button class="btn message margin-right-small indent-bottom5" type="button">Слева</button>
+                                            <button class="btn message margin-right-small indent-bottom5" type="button">Посредине</button>
+                                            <button class="btn message margin-right-small indent-bottom5" type="button">Справа</button>
+                                            <button class="btn message margin-right-small indent-bottom5" type="button">Слева</button>
+                                            <button class="btn message margin-right-small indent-bottom5" type="button">Посредине</button>
+                                            <button class="btn message margin-right-small indent-bottom5" type="button">Справа</button>
                                     </div>
                                    <div  data-toggle="buttons-checkbox">
                                             <label class="margin-top">Другое</Label>
-                                            <button class="btn message margin-right-small" type="button">Слева</button>
-                                            <button class="btn message margin-right-small" type="button">Посредине</button>
-                                            <button class="btn message margin-right-small" type="button">Справа</button>
-                                            <button class="btn message margin-right-small" type="button">Слева</button>
-                                            <button class="btn message margin-right-small" type="button">Посредине</button>
-                                            <button class="btn message margin-right-small" type="button">Справа</button>
-                                            <button class="btn message margin-right-small" type="button">Слева</button>
-                                            <button class="btn message margin-right-small" type="button">Посредине</button>
-                                            <button class="btn message margin-right-small" type="button">Справа</button>
-                                            <button class="btn message margin-right-small" type="button">Слева</button>
-                                            <button class="btn message margin-right-normal" type="button">Посредине</button>
-                                            <button class="btn message margin-right-normal" type="button">Справа</button>
+                                            <button class="btn message margin-right-small indent-bottom5" type="button">Слева</button>
+                                            <button class="btn message margin-right-small indent-bottom5" type="button">Посредине</button>
+                                            <button class="btn message margin-right-small indent-bottom5" type="button">Справа</button>
+                                            <button class="btn message margin-right-small indent-bottom5" type="button">Слева</button>
+                                            <button class="btn message margin-right-small indent-bottom5" type="button">Посредине</button>
+                                            <button class="btn message margin-right-small indent-bottom5" type="button">Справа</button>
+                                            <button class="btn message margin-right-small indent-bottom5" type="button">Слева</button>
+                                            <button class="btn message margin-right-small indent-bottom5" type="button">Посредине</button>
+                                            <button class="btn message margin-right-small indent-bottom5" type="button">Справа</button>
+                                            <button class="btn message margin-right-small indent-bottom5" type="button">Слева</button>
+                                            <button class="btn message margin-right-small indent-bottom5" type="button">Посредине</button>
+                                            <button class="btn message margin-right-small indent-bottom5" type="button">Справа</button>
                                     </div>
-                                </div>    
-                                     <div class="span1 clear right margin-right">
-                                        <button class="btn btn-block btn-primary  nomargin">Фильтр</button>
+                                    </div> 
+                                </div>
+                                <div class="row">
+                                    <div class="span7">
+                                        
                                     </div>
+                                    <div class="input-small">
+                                        <button class="btn btn-block btn-primary">Фильтр</button>
+                                    </div>    
                                 </div>
                             </div>
-                        </div>
- 
-				</div>
-            </div>
-			</div>
-        </div><!-- /navigation bar -->
-       
+                         </div>
+                   </div>
+<!--    Конец расширенный поиск     -->       
 		
 		<!--*****************************Места (тип акордион)-->
-        <div id="mesta" class="collapse center">
-            <div class="accordion-group"> 
+       <div class="container">
+          <div class="row-fluid"> 
+            <div id="mesta" class="collapse center">
+                 <div class="accordion-group"> 
                         <!--нопка закрыть окно-->
                        <div> 
                          <button class="close" data-target="#mesta" data-toggle="collapse" type="button">
@@ -239,9 +246,10 @@
                                     <button class="btn message margin-right-normal buttomdesignated" type="submit"/>Арбековская застава</button> 
 	
                             <!--КОНЕЦ Заполнение-->
-                </div>
-            </div>   
-         </div>  
+                    </div>
+                </div> <!--id=mesta-->
+              </div><!--row-fluid-->
+          </div><!-- container-->
         <!--КОНЕЦ Места (тип акордион)-->
 		
         <div class="container"><!-- container -->
@@ -249,8 +257,7 @@
             <div class="row"> <!-- row12 Список мест -->
 
                 <div class="span12"> <!-- span12 Список мест -->
-                    <div class="row"> <!-- Места -->
-				<div class="center">		
+                    <div class="row"> <!-- Места -->	
                         <div class="span3">
                             <div class="hover-slide-block">
                                 <div class="hover-slide-inner">
@@ -259,7 +266,171 @@
                                             <div class="profile-icon nomargin type">
                                                 <img src="img/icon/iconcolor/Control_Panel_alt.png">
                                             </div>
-                                            <img src="img/4651.png">
+                                            <img src="img/6004651.png">
+                                            <div class="image-info"><i class="icon-user icon-white"></i>: 365 234</div>
+                                        </div>
+                                    </div>
+                                    <div class="thumbnail">
+                                        <div class="hover-slide-second">
+                                            <div class="block">
+
+                                                <div class="profile-icon nomargin pull-left">
+                                                    <img src="img/icon/iconcolor/Control_Panel_alt.png">
+                                                </div>
+                                                <h4 class="head-shift">Тип места</h4>
+                                                <div class="clear"></div>
+                                            </div>
+                                            <div class="about-bottom">
+                                                <div class="block">
+                                                    <div class="margin-top-normal margin-left-lager">
+                                                        <a href="">Название места</a>
+                                                    </div>    
+                                                    <div class="margin-top-small margin-left-lager">
+                                                        г. Пенза, ул. Гагаринавапввапва пвапвапвпвап 2
+                                                    </div>    
+                                                    <div class="margin-top-normal margin-left-lager flaer">
+                                                        <a class="btn btn-primary" href="place-viewing.html">Подробнее</a>
+                                                        <a class="btn btn-primary" href="#"><i class="icon-star icon-white"></i></a> 
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="span3">
+                            <div class="hover-slide-block">
+                                <div class="hover-slide-inner">
+                                    <div class="thumbnail">
+                                        <div class="image-container">
+                                            <div class="profile-icon nomargin type">
+                                                <img src="img/icon/iconcolor/Control_Panel_alt.png">
+                                            </div>
+                                            <img src="img/6004651.png">
+                                            <div class="image-info"><i class="icon-user icon-white"></i>: 365 234</div>
+                                        </div>
+                                    </div>
+                                    <div class="thumbnail">
+                                        <div class="hover-slide-second">
+                                            <div class="block">
+
+                                                <div class="profile-icon nomargin pull-left">
+                                                    <img src="img/icon/iconcolor/Control_Panel_alt.png">
+                                                </div>
+                                                <h4 class="head-shift">Тип места</h4>
+                                                <div class="clear"></div>
+                                            </div>
+                                            <div class="about-bottom">
+                                                <div class="block">
+                                                    <div class="margin-top-normal margin-left-lager">
+                                                        <a href="">Название места</a>
+                                                    </div>    
+                                                    <div class="margin-top-small margin-left-lager">
+                                                        г. Пенза, ул. Гагарина 2
+                                                    </div>    
+                                                    <div class="margin-top-normal margin-left-lager flaer">
+                                                        <a class="btn btn-primary" href="place-viewing.html">Подробнее</a>
+                                                        <a class="btn btn-primary" href="#"><i class="icon-star icon-white"></i></a> 
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="span3">
+                            <div class="hover-slide-block">
+                                <div class="hover-slide-inner">
+                                    <div class="thumbnail">
+                                        <div class="image-container">
+                                            <div class="profile-icon nomargin type">
+                                                <img src="img/icon/iconcolor/Control_Panel_alt.png">
+                                            </div>
+                                            <img src="img/6004651.png">
+                                            <div class="image-info"><i class="icon-user icon-white"></i>: 365 234</div>
+                                        </div>
+                                    </div>
+                                    <div class="thumbnail">
+                                        <div class="hover-slide-second">
+                                            <div class="block">
+
+                                                <div class="profile-icon nomargin pull-left">
+                                                    <img src="img/icon/iconcolor/Control_Panel_alt.png">
+                                                </div>
+                                                <h4 class="head-shift">Тип места</h4>
+                                                <div class="clear"></div>
+                                            </div>
+                                            <div class="about-bottom">
+                                                <div class="block">
+                                                    <div class="margin-top-normal margin-left-lager">
+                                                        <a href="">Название места</a>
+                                                    </div>    
+                                                    <div class="margin-top-small margin-left-lager">
+                                                        г. Пенза, ул. Гагарина 2
+                                                    </div>    
+                                                    <div class="margin-top-normal margin-left-lager flaer">
+                                                        <a class="btn btn-primary" href="place-viewing.html">Подробнее</a>
+                                                        <a class="btn btn-primary" href="#"><i class="icon-star icon-white"></i></a> 
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                         <div class="span3">
+                            <div class="hover-slide-block">
+                                <div class="hover-slide-inner">
+                                    <div class="thumbnail">
+                                        <div class="image-container">
+                                            <div class="profile-icon nomargin type">
+                                                <img src="img/icon/iconcolor/Control_Panel_alt.png">
+                                            </div>
+                                            <img src="img/6004651.png">
+                                            <div class="image-info"><i class="icon-user icon-white"></i>: 365 234</div>
+                                        </div>
+                                    </div>
+                                    <div class="thumbnail">
+                                        <div class="hover-slide-second">
+                                            <div class="block">
+
+                                                <div class="profile-icon nomargin pull-left">
+                                                    <img src="img/icon/iconcolor/Control_Panel_alt.png">
+                                                </div>
+                                                <h4 class="head-shift">Тип места</h4>
+                                                <div class="clear"></div>
+                                            </div>
+                                            <div class="about-bottom">
+                                                <div class="block">
+                                                    <div class="margin-top-normal margin-left-lager">
+                                                        <a href="">Название места</a>
+                                                    </div>    
+                                                    <div class="margin-top-small margin-left-lager">
+                                                        г. Пенза, ул. Гагарина 2
+                                                    </div>    
+                                                    <div class="margin-top-normal margin-left-lager flaer">
+                                                        <a class="btn btn-primary" href="place-viewing.html">Подробнее</a>
+                                                        <a class="btn btn-primary" href="#"><i class="icon-star icon-white"></i></a> 
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="span3">
+                            <div class="hover-slide-block">
+                                <div class="hover-slide-inner">
+                                    <div class="thumbnail">
+                                        <div class="image-container">
+                                            <div class="profile-icon nomargin type">
+                                                <img src="img/icon/iconcolor/Control_Panel_alt.png">
+                                            </div>
+                                            <img src="img/6004651.png">
                                             <div class="image-info"><i class="icon-user icon-white"></i>: 365 234</div>
                                         </div>
                                     </div>
@@ -300,7 +471,7 @@
                                             <div class="profile-icon nomargin type">
                                                 <img src="img/icon/iconcolor/Limewire_alt.png">
                                             </div>
-                                            <img src="img/4651.png">
+                                            <img src="img/6004651.png">
                                             <div class="image-info"><i class="icon-user icon-white"></i>: 365 234</div>
                                         </div>
                                     </div>
@@ -338,7 +509,7 @@
                                 <div class="hover-slide-inner">
                                     <div class="thumbnail">
                                         <div class="image-container">
-                                            <img src="img/4651.png">
+                                            <img src="img/6004651.png">
                                             <div class="image-info"><i class="icon-user icon-white"></i>: 365 234</div>
                                         </div>
                                     </div>
@@ -360,7 +531,7 @@
                                 <div class="hover-slide-inner">
                                     <div class="thumbnail">
                                         <div class="image-container">
-                                            <img src="img/4651.png">
+                                            <img src="img/6004651.png">
                                             <div class="image-info"><i class="icon-user icon-white"></i>: 365 234</div>
                                         </div>
                                     </div>
@@ -377,8 +548,7 @@
                                 </div>
                             </div>
                         </div>
-					<div class="clear"></div>
-					   </div>
+                        <div class="clear"></div>
                     </div>  
                    
                     <div class="pagination pagination-centered">
@@ -410,7 +580,7 @@
 				<a id="ui-menu-left-architecture" class="ui-menu-button-notification ui-menu-button ui-menu-button-architecture " href="shopping1.php">Шопинг</a>
 			</li>
 			<li class="" itemprop="itemListElement">
-				<a id="ui-menu-left-art" class="ui-menu-button-notification ui-menu-button ui-menu-button-art " href="fun1.php">Развлечения и отдых</a>
+				<a id="ui-menu-left-art" class="ui-menu-button-notification ui-menu-button ui-menu-button-art" href="fun1.php">Развлечения и отдых</a>
 			</li>
 			<li class="" itemprop="itemListElement">
 				<a id="ui-menu-left-fashion-mens" class="ui-menu-button-notification ui-menu-button ui-menu-button-fashion-mens active" href="beauty_1.php">Красота и здоровье</a>
@@ -422,8 +592,6 @@
 				<a id="ui-menu-left-graphic-design" class="ui-menu-button-notification ui-menu-button ui-menu-button-graphic-design " href="food_1.php">Продукты и напитки</a>
 			</li>
 
-			<meta content="Channels on Piccsy" itemprop="name">
-			<meta content="A list of all the active image channels on Piccsy, choose something that interests you!" itemprop="description">
         </ul>
 		 
 <!--Одиночное меню-->
@@ -444,18 +612,24 @@
 </div> <!-- /container -->
 
  <!--style.css Подвал-->
-         <div class="footer">
-                <p>&#169;2013 POISK58.ru
-                    <a href="Content.php"class="href">О проекте</a>
-                    <a href=""class="href">Реклама</a>
-                    <a href="place-create.html"class="href">Сотрудничество</a>
-                    <a href=""class="href">Помощь</a>
-
-                    <a href=""><img  class="socialV" src="footer/vk2.svg"/></a>
-                    <a href=""><img  class="socialT"src="footer/twitter3.svg"/></a>
-                    <a href=""><img  class="socialF"src="footer/facebook2.svg"/></a>	
-
-                </p>
+         <div class="container">
+             <div class="footer">
+                 <div class="row">
+                     <div class="span6">
+                       <p> &#169;2013 POISK58.ru
+                        <a href="Content.php"class="href">О проекте</a>
+                        <a href=""class="href">Реклама</a>
+                        <a href="place-create.html"class="href">Сотрудничество</a>
+                        <a href=""class="href">Помощь</a>
+                       </p> 
+                     </div>
+                     <div class="offset2 span3 pagination-right">
+                        <a href=""><img  class="socialV" src="footer/vk2.svg"/></a>
+                        <a href=""><img  class="socialT"src="footer/twitter3.svg"/></a>
+                        <a href=""><img  class="socialF"src="footer/facebook2.svg"/></a>	
+                     </div>
+                </div>
+             </div>  
           </div>
 
 

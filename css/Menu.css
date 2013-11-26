@@ -243,8 +243,8 @@ Back to top button
 .margin-right{margin-right: 10px;}
 .margin-left{margin-left: 50px;}
 .margin-top{margin-top: 20px;}
-.right{float: right;}
-.width_input{margin-right: 42px;width: 204px;}
+/*.right{float: right;}*/
+.width_input{width: 204px;}
 .navbar-inner img{width: 41px;height: 41px;}
 
 

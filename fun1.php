@@ -591,9 +591,6 @@
 			<li class="" itemprop="itemListElement">
 				<a id="ui-menu-left-graphic-design" class="ui-menu-button-notification ui-menu-button ui-menu-button-graphic-design " href="food_1.php">Продукты и напитки</a>
 			</li>
-
-			<meta content="Channels on Piccsy" itemprop="name">
-			<meta content="A list of all the active image channels on Piccsy, choose something that interests you!" itemprop="description">
         </ul>
 		 
 <!--Одиночное меню-->
