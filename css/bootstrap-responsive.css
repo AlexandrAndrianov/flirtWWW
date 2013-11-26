@@ -126,7 +126,7 @@
     color: rgb(255, 255, 255);
     position: absolute;
     text-align: center;
-    top: 185px;
+    top: 196px;
     width: 100%;
 }
 
@@ -156,6 +156,29 @@
   box-sizing: border-box;
 }
 /******Конец Поиск**************************************/
+
+/**********Хлебные крошки страница index.php************/
+.visible-hidden{visibility: hidden;}
+/**********КОНЕЦ Хлебные крошки страница index.php******/
+
+/*******Заголовок карты*********************************/
+.title, .title-creat {top: 0;
+    padding-left: 3px;
+    position: absolute;
+    left: 0;
+    color: #fff;
+}
+.title {
+    background: rgba(0, 0, 0, 0.6);
+    padding: 0 15px;
+}
+/*******КОНЕЦ Заголовок карты*********************************/
+
+/*********Фон на странице place-viewing***********************/
+.fon{background: rgba(0, 0, 0, 0.06);
+     padding: 39px;}
+/*********КОНЕЦ Фон на странице place-viewing***********************/
+
   .row {
     margin-left: -50px;
     *zoom: 1;
@@ -574,6 +597,34 @@
   box-sizing: border-box;
 }
 /******Конец Поиск**************************************/
+
+/**********Хлебные крошки страница index.php************/
+.visible-hidden{visibility: hidden;}
+.navbar .brand.visible-hidden{padding: 0;}
+/**********КОНЕЦ Хлебные крошки страница index.php******/
+
+/*******Заголовок карты*********************************/
+.title, .title-creat {top: 0;
+    padding-left: 3px;
+    position: absolute;
+    left: 0;
+    color: #fff;
+}
+.title {
+    background: rgba(0, 0, 0, 0.6);
+    padding: 0 15px;
+}
+/*******КОНЕЦ Заголовок карты*********************************/
+
+/*********Фон на странице place-viewing***********************/
+.fon{background: rgba(0, 0, 0, 0.06);
+     padding: 39px;}
+/*********КОНЕЦ Фон на странице place-viewing***********************/
+
+/*********Фон на странице place-viewing***********************/
+.fon{background: rgba(0, 0, 0, 0.06);
+     padding: 39px;}
+/*********КОНЕЦ Фон на странице place-viewing***********************/
 
   .row {
     margin-left: -50px;
@@ -996,6 +1047,28 @@ a.btn.btn-primary{padding: 0;}
 }
 /******Конец Поиск**************************************/
 
+/**********Хлебные крошки страница index.php************/
+.visible-hidden{visibility: hidden;}
+.navbar .brand.visible-hidden{padding: 0;}
+/**********КОНЕЦ Хлебные крошки страница index.php******/
+
+/*******Заголовок карты*********************************/
+.title, .title-creat {top: 0;
+    padding-left: 3px;
+    position: absolute;
+    left: 0;
+    color: #fff;
+}
+.title {
+    background: rgba(0, 0, 0, 0.6);
+    padding: 0 15px;
+}
+/*******КОНЕЦ Заголовок карты*********************************/
+
+/*********Фон на странице place-viewing***********************/
+.fon{background: rgba(0, 0, 0, 0.06);
+     padding: 39px;}
+/*********КОНЕЦ Фон на странице place-viewing***********************/
 
   .row {
     margin-left: -20px;
@@ -1377,7 +1450,7 @@ a.btn.btn-primary{padding: 0;}
     color: rgb(255, 255, 255);
     position: absolute;
     text-align: center;
-    top: 204px;
+    top: 210px;
     width: 100%;
 }
 
@@ -1410,6 +1483,28 @@ a.btn.btn-primary{padding: 0;}
 }
 /******Конец Поиск**************************************/
 
+/**********Хлебные крошки страница index.php************/
+.visible-hidden{visibility: visible;}
+.navbar .brand.visible-hidden{padding: 10px 0 12px 5px;}
+/**********КОНЕЦ Хлебные крошки страница index.php******/
+
+/*******Заголовок карты*********************************/
+.title, .title-creat {top: 0;
+    padding-left: 3px;
+    position: absolute;
+    left: 0;
+    color: #fff;
+}
+.title {
+    background: rgba(0, 0, 0, 0.6);
+    padding: 0 15px;
+}
+/*******КОНЕЦ Заголовок карты*********************************/
+
+/*********Фон на странице place-viewing***********************/
+.fon{background: rgba(0, 0, 0, 0.06);
+     padding: 23px;}
+/*********КОНЕЦ Фон на странице place-viewing***********************/
 
    body {
     padding-right: 20px;
@@ -1645,6 +1740,29 @@ a.btn.btn-primary{padding: 0;}
 
 /******Конец Поиск**************************************/
 
+/**********Хлебные крошки страница index.php************/
+.visible-hidden{visibility: visible;}
+.navbar .brand.visible-hidden{padding: 10px 0 12px 64px;}
+/**********КОНЕЦ Хлебные крошки страница index.php******/
+
+/*******Заголовок карты*********************************/
+.title, .title-creat {top: 0;
+    padding-left: 3px;
+    position: absolute;
+    left: 0;
+    color: #fff;
+}
+.title {
+    background: rgba(0, 0, 0, 0.6);
+    padding: 0 15px;
+}
+/*******КОНЕЦ Заголовок карты*********************************/
+
+/*********Фон на странице place-viewing***********************/
+.fon{background: rgba(0, 0, 0, 0.06);
+     padding: -19px;}
+/*********КОНЕЦ Фон на странице place-viewing***********************/
+
    body {
     padding-right: 20px;
     padding-left: 20px;
@@ -1872,6 +1990,18 @@ a.btn.btn-primary{padding: 0;}
 }
 /******Конец Поиск**************************************/
 
+/*******Заголовок карты*********************************/
+.title, .title-creat {top: 0;
+    padding-left: 3px;
+    position: absolute;
+    left: 0;
+    color: #fff;
+}
+.title {
+    background: rgba(0, 0, 0, 0.6);
+    padding: 0 15px;
+}
+/*******КОНЕЦ Заголовок карты*********************************/
 
 #ui-menu-left {
     background-color: #000000;
@@ -1947,6 +2077,29 @@ a.btn.btn-primary{padding: 0;}
   box-sizing: border-box;
 }
 /******Конец Поиск**************************************/
+
+/**********Хлебные крошки страница index.php************/
+.visible-hidden{visibility: visible;}
+.navbar .brand.visible-hidden{padding: 10px 0 12px 64px;}
+/**********КОНЕЦ Хлебные крошки страница index.php******/
+
+/*******Заголовок карты*********************************/
+.title, .title-creat {
+    top: 13px;
+    padding-left: 3px;
+    position: absolute;
+    left: 50%;
+    margin-left: -104px;
+    color: #fff;
+}
+.title {
+    background: rgba(0, 0, 0, 0.6);
+    padding: 0 15px;
+}
+/*******КОНЕЦ Заголовок карты*********************************/
+/*******Скрываем карту на странице place-viewing********/
+.map-hidden{visibility: hidden;}
+/*******КОНЕЦ Скрываем карту на странице place-viewing********/
 }
 
 
@@ -2003,7 +2156,20 @@ a.btn.btn-primary{padding: 0;}
 }
 /******Конец Поиск**************************************/
 
-
+/*******Заголовок карты*********************************/
+.title, .title-creat {
+    top: -9px;
+    padding-left: 3px;
+    position: absolute;
+    left: 50%;
+    margin-left: -104px;
+    color: #fff;
+}
+.title {
+    background: rgba(0, 0, 0, 0.6);
+    padding: 0 15px;
+}
+/*******КОНЕЦ Заголовок карты*********************************/
    body {
     padding-right: 20px;
     padding-left: 20px;
@@ -2126,6 +2292,23 @@ a.btn.btn-primary{padding: 0;}
   .modal.fade.in {
     top: 20px;
   }
+}
+
+@media (max-width: 380px){
+    /*******Заголовок карты*********************************/
+.title, .title-creat {
+    top: -12px;
+    padding-left: 3px;
+    position: absolute;
+    left: 50%;
+    margin-left: -84px;
+    color: #fff;
+}
+.title {
+    background: rgba(0, 0, 0, 0.6);
+    padding: 0 0;
+}
+/*******КОНЕЦ Заголовок карты*********************************/
 }
 
 /*@media (max-width: 380px){

@@ -368,6 +368,11 @@ a {
 .row-fluid [class*="span"]:first-child {
   margin-left: 0;
 }
+
+.container.fon .row-fluid [class*="span"]:first-child {
+  margin-left: auto;
+}
+
 .row-fluid .controls-row [class*="span"] + [class*="span"] {
   margin-left: 2.127659574468085%;
 }
@@ -2441,7 +2446,7 @@ input[type="submit"].btn.btn-mini {
   background-position: -144px 0;
 }
 .icon-user {
-  background-position: -168px 0;
+  background-position: -48px -23px;
 }
 .icon-film {
   background-position: -192px 0;
@@ -5164,6 +5169,13 @@ button.close {
   height: auto;
 }
 
+/***Хлебные крошки***************************/
+.navbar .brand.visible-hidden{padding: 0;}
+/***КОНЕЦ Хлебные крошки***************************/
+
+/*******Скрываем карту на странице place-viewing********/
+.map-hidden{visibility: visible;}
+/*******КОНЕЦ Скрываем карту на странице place-viewing********/
 
 .nomargin-top {margin-top: 0 !important;}
 .nomargin-bottom {margin-bottom: 0 !important;}

@@ -229,7 +229,7 @@ root {
     top: 6px;
 }
 /*Заголовки*/
-.title, .title-creat {top: 0;
+/*.title, .title-creat {top: 0;
     padding-left: 3px;
     position: absolute;
     left: 0;
@@ -238,7 +238,7 @@ root {
 .title {
     background: rgba(0, 0, 0, 0.6);
     padding: 0 15px;
-}
+}*/
 .title-creat {
     padding: 10px;
 }
@@ -357,3 +357,6 @@ root {
                 font-size: 17.5px;
                  padding: 16px 17px;
                 background-position:2px 3px;}
+
+/*.fon{background: rgba(0, 0, 0, 0.06);
+     padding: 39px;}*/

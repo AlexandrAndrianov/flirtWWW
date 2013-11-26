@@ -16,7 +16,7 @@
     </head>
     <body>
 
-	<div class="navbar navbar-inverse navbar-fixed-top"><!-- navigation bar -->
+        <div class="navbar navbar-inverse navbar-fixed-top"><!-- navigation bar -->
             
             <!--Контейнер с Вход-->
 			<!--Стили style.css-->
@@ -45,11 +45,11 @@
                         <ul class="span6 indent-left2">
                         <li>
                             <a class="brand hidden-visible" href="index.php">
-                            <em>Любимые места Пензы /</em></a>
+                            <em>Любимые места Пензы</em></a>
                         </li>
                         <li class="">
-                            <a class="brand" href="index.php">
-                            <em>Развлечение и отдых</em></a>
+                            <a class="brand visible-hidden" href="index.php">
+                            <em>Любимые места Пензы</em></a>
                         </li>
                         <li class="clear"></li>
                         </ul>
@@ -110,8 +110,15 @@
                             </button>
                         </li>
                     </ul>
-                    
-		<div id="advanced-search" class="absolute-side collapse redcollapse-search" >                   
+
+                 
+                 </div>
+            </div>
+ 
+         </div><!-- /navigation bar -->
+         
+         <!--    расширенный поиск     -->
+	  <div id="advanced-search" class="absolute-side collapse redcollapse-search" >                   
                          <!--Кнопка закрыть окно-->                       
                          <button class="close" data-target="#advanced-search" data-toggle="collapse" type="button">
                             x
@@ -119,8 +126,8 @@
                          <!--КОНЕЦ Кнопка закрыть окно-->
                          
                          <div class="row calendar-conteiner">
-                            <div class="span9 margin-left">
-                                <div class="row span11">
+                            <div class="span9">
+                                <div class="row">
                                     <div class="span7">
                                         
                                             <select class="inputSity  span2 margin-right-small">
@@ -145,81 +152,83 @@
                                         
                                             <input class="span3" type="text">
                                     </div>
-                                    
-                                    <div class="span1">
-                                        <button class="btn btn-block btn-primary  nomargin">Найти</button>
+                                      
+                                    <div class="input-small">
+                                         <button class="btn btn-block btn-primary">Найти</button>
                                     </div>
+
+                                </div>    
+
+                                <div class="row">
+                                   <div class="span8 border-bottom"></div>
                                 </div>
-                                <div>
-                                    <div class="span2 feature"> <!--class feature Menu.css-->
-                                           <label>Расширенный поиск</label>
-                                    </div>
-                                    <div class="row nomargin span9">
-                                        <div class="span9 border-bottom"></div>
-                                    </div>
-                                    <div class="clear"></div>
-                                </div>
-                                <div class="span6">
+                                <div class="row">
+                                    <div class="span7">
                                   
                                     <div  data-toggle="buttons-checkbox">
                                             <label class="margin-top">Цель визита</Label>
-                                            <button class="btn message margin-right-small" type="button">Слева</button>
-                                            <button class="btn message margin-right-small" type="button">Посредине</button>
-                                            <button class="btn message margin-right-small" type="button">Справа</button>
-                                            <button class="btn message margin-right-small" type="button">Слева</button>
-                                            <button class="btn message margin-right-small" type="button">Посредине</button>
-                                            <button class="btn message margin-right-small" type="button">Справа</button>
+                                            <button class="btn message margin-right-small indent-bottom5" type="button">Слева</button>
+                                            <button class="btn message margin-right-small indent-bottom5" type="button">Посредине</button>
+                                            <button class="btn message margin-right-small indent-bottom5" type="button">Справа</button>
+                                            <button class="btn message margin-right-small indent-bottom5" type="button">Слева</button>
+                                            <button class="btn message margin-right-small indent-bottom5" type="button">Посредине</button>
+                                            <button class="btn message margin-right-small indent-bottom5" type="button">Справа</button>
                                     </div>
                   
                                     <div  data-toggle="buttons-checkbox">
                                             <label class="margin-top">Расходы</Label>
-                                            <button class="btn message margin-right-small" type="button">Слева</button>
-                                            <button class="btn message margin-right-small" type="button">Посредине</button>
-                                            <button class="btn message margin-right-small" type="button">Справа</button>
-                                            <button class="btn message margin-right-small" type="button">Слева</button>
-                                            <button class="btn message margin-right-small" type="button">Посредине</button>
-                                            <button class="btn message margin-right-small" type="button">Справа</button>
+                                            <button class="btn message margin-right-small indent-bottom5" type="button">Слева</button>
+                                            <button class="btn message margin-right-small indent-bottom5" type="button">Посредине</button>
+                                            <button class="btn message margin-right-small indent-bottom5" type="button">Справа</button>
+                                            <button class="btn message margin-right-small indent-bottom5" type="button">Слева</button>
+                                            <button class="btn message margin-right-small indent-bottom5" type="button">Посредине</button>
+                                            <button class="btn message margin-right-small indent-bottom5" type="button">Справа</button>
                                     </div>
                                     <div  data-toggle="buttons-checkbox">
                                             <label class="margin-top">Время работы</Label>
-                                            <button class="btn message margin-right-small" type="button">Слева</button>
-                                            <button class="btn message margin-right-small" type="button">Посредине</button>
-                                            <button class="btn message margin-right-small" type="button">Справа</button>
-                                            <button class="btn message margin-right-small" type="button">Слева</button>
-                                            <button class="btn message margin-right-small" type="button">Посредине</button>
-                                            <button class="btn message margin-right-small" type="button">Справа</button>
+                                            <button class="btn message margin-right-small indent-bottom5" type="button">Слева</button>
+                                            <button class="btn message margin-right-small indent-bottom5" type="button">Посредине</button>
+                                            <button class="btn message margin-right-small indent-bottom5" type="button">Справа</button>
+                                            <button class="btn message margin-right-small indent-bottom5" type="button">Слева</button>
+                                            <button class="btn message margin-right-small indent-bottom5" type="button">Посредине</button>
+                                            <button class="btn message margin-right-small indent-bottom5" type="button">Справа</button>
                                     </div>
                                    <div  data-toggle="buttons-checkbox">
                                             <label class="margin-top">Другое</Label>
-                                            <button class="btn message margin-right-small" type="button">Слева</button>
-                                            <button class="btn message margin-right-small" type="button">Посредине</button>
-                                            <button class="btn message margin-right-small" type="button">Справа</button>
-                                            <button class="btn message margin-right-small" type="button">Слева</button>
-                                            <button class="btn message margin-right-small" type="button">Посредине</button>
-                                            <button class="btn message margin-right-small" type="button">Справа</button>
-                                            <button class="btn message margin-right-small" type="button">Слева</button>
-                                            <button class="btn message margin-right-small" type="button">Посредине</button>
-                                            <button class="btn message margin-right-small" type="button">Справа</button>
-                                            <button class="btn message margin-right-small" type="button">Слева</button>
-                                            <button class="btn message margin-right-normal" type="button">Посредине</button>
-                                            <button class="btn message margin-right-normal" type="button">Справа</button>
+                                            <button class="btn message margin-right-small indent-bottom5" type="button">Слева</button>
+                                            <button class="btn message margin-right-small indent-bottom5" type="button">Посредине</button>
+                                            <button class="btn message margin-right-small indent-bottom5" type="button">Справа</button>
+                                            <button class="btn message margin-right-small indent-bottom5" type="button">Слева</button>
+                                            <button class="btn message margin-right-small indent-bottom5" type="button">Посредине</button>
+                                            <button class="btn message margin-right-small indent-bottom5" type="button">Справа</button>
+                                            <button class="btn message margin-right-small indent-bottom5" type="button">Слева</button>
+                                            <button class="btn message margin-right-small indent-bottom5" type="button">Посредине</button>
+                                            <button class="btn message margin-right-small indent-bottom5" type="button">Справа</button>
+                                            <button class="btn message margin-right-small indent-bottom5" type="button">Слева</button>
+                                            <button class="btn message margin-right-small indent-bottom5" type="button">Посредине</button>
+                                            <button class="btn message margin-right-small indent-bottom5" type="button">Справа</button>
                                     </div>
-                                </div>    
-                                     <div class="span1 clear right margin-right">
-                                        <button class="btn btn-block btn-primary  nomargin">Фильтр</button>
+                                    </div> 
+                                </div>
+                                <div class="row">
+                                    <div class="span7">
+                                        
                                     </div>
+                                    <div class="input-small">
+                                        <button class="btn btn-block btn-primary">Фильтр</button>
+                                    </div>    
                                 </div>
                             </div>
-                        </div>
- 
-                    </div>
-                  </div>
-		</div><!-- /navigation bar -->
+                         </div>
+                   </div>
+        <!--    Конец расширенный поиск     -->    
        
 		
 		<!--*****************************Места (тип акордион)-->
-        <div id="mesta" class="collapse center">
-            <div class="accordion-group"> 
+       <div class="container">
+          <div class="row-fluid"> 
+            <div id="mesta" class="collapse center">
+                 <div class="accordion-group"> 
                         <!--нопка закрыть окно-->
                        <div> 
                          <button class="close" data-target="#mesta" data-toggle="collapse" type="button">
@@ -239,9 +248,10 @@
                                     <button class="btn message margin-right-normal buttomdesignated" type="submit"/>Арбековская застава</button> 
 	
                             <!--КОНЕЦ Заполнение-->
-                </div>
-          </div>   
-          
+                    </div>
+                </div> <!--id=mesta-->
+              </div><!--row-fluid-->
+          </div><!-- container-->
         <!--КОНЕЦ Места (тип акордион)-->
 		
         <div class="container"><!-- container -->
