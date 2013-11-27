@@ -3,6 +3,7 @@
     <head>
         <title>FLIRTMAKE</title>
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="stylesheet" href="css/bootstrap.css" />
         <link rel="stylesheet" href="css/bootstrap-responsive.css" />
         <link rel="stylesheet" href="css/style.css" />
@@ -235,16 +236,14 @@
                         </div>   
                          <!--КОНЕЦ Кнопка закрыть окно-->
                             <!--Заполнение-->
-                                    <button class="btn message margin-right-normal buttomdesignated" type="submit"/>Арбеково</button>
-                                    <button class="btn message margin-right-normal buttomdesignated" type="submit"/>Терновка</button>
-                                    <button class="btn message margin-right-normal buttomdesignated" type="submit"/>Запрудный</button>
-                                    <button class="btn message margin-right-normal buttomdesignated" type="submit"/>Согласие</button>
-                                    <button class="btn message margin-right-normal buttomdesignated" type="submit"/>Шуист</button>
-                                    <button class="btn message margin-right-normal buttomdesignated" type="submit"/>Манжурия</button>
-                                    <button class="btn message margin-right-normal buttomdesignated" type="submit"/>Западная поляна</button>
-                                    <button class="btn message margin-right-normal buttomdesignated" type="submit"/>Веселовка</button>
-                                    <button class="btn message margin-right-normal buttomdesignated" type="submit"/>Арбековская застава</button> 
-	
+                                    <button class="btn message margin-right-normal buttomdesignated" type="submit"/>Продукты питания</button>
+                                    <button class="btn message margin-right-normal buttomdesignated" type="submit"/>Овощи и фрукты</button>
+                                    <button class="btn message margin-right-normal buttomdesignated" type="submit"/>Кондитерские изделия</button>
+                                    <button class="btn message margin-right-normal buttomdesignated" type="submit"/>Алкогольные напитки</button>
+                                    <button class="btn message margin-right-normal buttomdesignated" type="submit"/>Безалкогольные напитки</button>
+                                    <button class="btn message margin-right-normal buttomdesignated" type="submit"/>Чай, кофе</button>
+                                    <button class="btn message margin-right-normal buttomdesignated" type="submit"/>Доставка питьевой воды</button>
+                                    <button class="btn message margin-right-normal buttomdesignated" type="submit"/>Доставка еды</button>
                             <!--КОНЕЦ Заполнение-->
                     </div>
                 </div> <!--id=mesta-->

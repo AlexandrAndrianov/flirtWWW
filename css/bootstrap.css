@@ -1207,6 +1207,7 @@ label {
   display: block;
   margin-bottom: 5px;
 }
+
 select,
 textarea,
 input[type="text"],
@@ -4687,6 +4688,9 @@ input[type="submit"].btn.btn-mini {
   background-clip: padding-box;
   outline: none;
 }
+
+
+
 .modal.fade {
   -webkit-transition: opacity .3s linear, top .3s ease-out;
   -moz-transition: opacity .3s linear, top .3s ease-out;

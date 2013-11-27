@@ -3,7 +3,7 @@
     <head>
         <title>FLIRTMAKE</title>
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-         <meta name= "viewport" content= "width=device-width, initial-scale=1.0" > 
+        <meta name= "viewport" content= "width=device-width, initial-scale=1.0" > 
         <link rel="stylesheet" href="css/bootstrap.css" />
         <link rel="stylesheet" href="css/bootstrap-responsive.css" />
         <link rel="stylesheet" href="css/style.css" />
@@ -236,16 +236,15 @@
                         </div>   
                          <!--КОНЕЦ Кнопка закрыть окно-->
                             <!--Заполнение-->
-                                    <button class="btn message margin-right-normal buttomdesignated" type="submit"/>Арбеково</button>
-                                    <button class="btn message margin-right-normal buttomdesignated" type="submit"/>Терновка</button>
-                                    <button class="btn message margin-right-normal buttomdesignated" type="submit"/>Запрудный</button>
-                                    <button class="btn message margin-right-normal buttomdesignated" type="submit"/>Согласие</button>
-                                    <button class="btn message margin-right-normal buttomdesignated" type="submit"/>Шуист</button>
-                                    <button class="btn message margin-right-normal buttomdesignated" type="submit"/>Манжурия</button>
-                                    <button class="btn message margin-right-normal buttomdesignated" type="submit"/>Западная поляна</button>
-                                    <button class="btn message margin-right-normal buttomdesignated" type="submit"/>Веселовка</button>
-                                    <button class="btn message margin-right-normal buttomdesignated" type="submit"/>Арбековская застава</button> 
-	
+                                <button class="btn message margin-right-normal buttomdesignated" type="submit"/>Строительные и отделочные материалы</button>
+                                <button class="btn message margin-right-normal buttomdesignated" type="submit"/>Оборуудоваие и инструменты</button>
+                                <button class="btn message margin-right-normal buttomdesignated" type="submit"/>Мебель, материалы, фурнитура</button>
+                                <button class="btn message margin-right-normal buttomdesignated" type="submit"/>Хозяйственные товары и канцелярские принадлежности</button>
+                                <button class="btn message margin-right-normal buttomdesignated" type="submit"/>Бытовая техника и электроника</button>
+                                <button class="btn message margin-right-normal buttomdesignated" type="submit"/>Компьютеры и комплектующие</button>
+                                <button class="btn message margin-right-normal buttomdesignated" type="submit"/>Подарки, сувениры</button>
+                                <button class="btn message margin-right-normal buttomdesignated" type="submit"/>Товары для детей</button>
+                                <button class="btn message margin-right-normal buttomdesignated" type="submit"/>Товары для животных</button> 
                             <!--КОНЕЦ Заполнение-->
                     </div>
                 </div> <!--id=mesta-->

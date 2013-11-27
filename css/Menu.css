@@ -217,10 +217,11 @@ Back to top button
 /*Личный кабинет modal-body*/
 .modal-body label,.modal-body input{display:inline;}
 .modal-body{width: 470px;}
+/*bootstrap-responsiv******
 .labmodal {
     padding: 0 20px;
     text-align: right;
-  }
+  }*/
   /*стиль кнопки с картинкой*/
   .buttimg{background-image:url(../footer/edit.png);
 		   background-position: 15px 5px;
