@@ -250,8 +250,88 @@
         <!--КОНЕЦ Места (тип акордион)-->
         
 
-
+<div id="Blog" class="container-fluid">
 <!---ContainerSection------------------------------------>
+    <div class="headerBlog">       
+            <div class="row-fluid">
+               <div class="span1"></div>
+               <div class="span10"> 
+                <h1>Блог</h1>
+               </div>
+               <div class="span1"></div> 
+            </div> 
+    </div>
+   
+<!----------Статья--------------------->
+     <div class="article">   
+        <div class="row-fluid">
+           <div class="span1"></div>
+           <div class="span10">
+                <hr>
+                <h2><a href="/blog/post/new-version-november" title="">Новая версия Gmarkt</a></h2>
+                <p>
+                    С ростом деловой активности и приближением новогодних
+                    праздников люди начинают чаще искать товары в интернете.
+                    Чтобы помочь покупателям, Gmarkt специально выпустил новую версию своего приложения, сделав поиск товаров ещё более быстрым и выгодным делом.
+                     </br>В самую свежую версию Gmarkt были добавлены новые полезные функции, доработаны старые и учтены пожелания пользователей. Весь функционал разнесен теперь по трём вкладкам, которые, как и прежде, прячутся под синей кнопкой и не мешают изучению товаров в интернет-магазине.
+                </p>
+                <div class="row-fluid">
+                    <div class="offset4 span4 indent-top20 indent-bottom20">
+                        <img src="img/600b_226.png" class="img-polaroid">
+                    </div> 
+                </div>    
+            </div>    
+            <div class="span1"></div> 
+         </div>
+            <div class="row-fluid">
+               <div class="span1">
+               </div>
+               <div class="span10">
+                    <p class="pull-left">27.11.2013</p>   
+                    <p class="pull-right"><a href="">Читать полностью</a></p>
+               </div>
+               <div class="span1">
+               </div> 
+            </div>  
+       </div>  
+ <!----------Статья--------------------->  
+ 
+ <!----------Статья--------------------->
+     <div class="article">   
+        <div class="row-fluid">
+           <div class="span1"></div>
+           <div class="span10">
+                <hr>
+                <h2><a href="/blog/post/new-version-november" title="">Новая версия Gmarkt</a></h2>
+                <p>
+                    С ростом деловой активности и приближением новогодних
+                    праздников люди начинают чаще искать товары в интернете.
+                    Чтобы помочь покупателям, Gmarkt специально выпустил новую версию своего приложения, сделав поиск товаров ещё более быстрым и выгодным делом.
+                     </br>В самую свежую версию Gmarkt были добавлены новые полезные функции, доработаны старые и учтены пожелания пользователей. Весь функционал разнесен теперь по трём вкладкам, которые, как и прежде, прячутся под синей кнопкой и не мешают изучению товаров в интернет-магазине.
+                </p>
+                <div class="row-fluid">
+                    <div class="offset4 span4 indent-top20 indent-bottom20">
+                        <img src="img/600b_226.png" class="img-polaroid">
+                    </div> 
+                </div>    
+            </div>    
+            <div class="span1"></div> 
+         </div>
+            <div class="row-fluid">
+               <div class="span1">
+               </div>
+               <div class="span10">
+                    <p class="pull-left">27.11.2013</p>   
+                    <p class="pull-right"><a href="">Читать полностью</a></p>
+               </div>
+               <div class="span1">
+               </div> 
+            </div>  
+       </div>  
+ <!----------Статья--------------------->  
+ 
+<!---ContainerSection------------------------------------>
+</div><!--Blog-->
 
          <!-- Menu vertical-->
      <div>
