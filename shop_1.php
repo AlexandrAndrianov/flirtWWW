@@ -595,16 +595,9 @@
 		 
 <!--Одиночное меню-->
 <ul id="ui-menu-left-sale" itemtype="" itemscope="">
-<meta content="Unordered" itemprop="itemListOrder">
-
-<li class="menuLeft" itemprop="itemListElement">
-<a id="ui-menu-left-home" class="ui-menu-button ui-menu-button-following " href="">Скидки</a>
-</li>
-
-
-
-<meta content="Channels on Piccsy" itemprop="name">
-<meta content="A list of all the active image channels on Piccsy, choose something that interests you!" itemprop="description">
+    <li class="menuLeft" itemprop="itemListElement">
+    <a id="ui-menu-left-home" class="ui-menu-button ui-menu-button-following " href="Skidki-Blog.php">Скидки</a>
+    </li>
 </ul>
 <!--Конец Одиночного меню-->
 		</div>
