@@ -453,3 +453,35 @@ div.thumbnail h5, div.thumbnail h4, div.thumbnail p {
     margin-right: 20px;
 }
 
+/*Страница Блог*/
+#Blog hr{
+    border: none; /* Убираем границу для браузера Firefox */
+    color: #ccc; /* Цвет линии для остальных браузеров */
+    background-color: #ccc; /* Цвет линии для браузера Firefox и Opera */
+    height: 2px; /* Толщина линии */
+        }
+        
+#Blog a.more{
+    color: rgb(51, 51, 51);
+    font-weight: 600;
+    margin: 0 1px;
+    text-decoration: underline;   
+        }
+        
+#Blog a.more:hover{
+            color: rgb(51, 153, 204);
+            text-decoration: none;
+        }
+        
+#Blog .date{
+         color: rgb(80,80,80);   
+        }
+#Blog p {
+    color: rgb(85, 85, 85);
+    font-size: 14px;
+    line-height: 1.6em;
+}
+
+#Blogbody{
+    font: 13px/18px 'Open Sans',arial,sans-serif;
+}

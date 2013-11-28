@@ -15,7 +15,7 @@
         <script type="text/javascript" src="jsKnopka/jquery.min.js"></script>
  
     </head>
-    <body>
+    <body id="Blogbody">
         <div class="navbar navbar-inverse navbar-fixed-top"><!-- navigation bar -->
             
             <!--Контейнер с Вход-->
@@ -267,7 +267,7 @@
         <div class="row-fluid">
            <div class="span1"></div>
            <div class="span10">
-                <hr>
+                <hr class="indent-bottom30 indent-top30">
                 <h2><a href="/blog/post/new-version-november" title="">Новая версия Gmarkt</a></h2>
                 <p>
                     С ростом деловой активности и приближением новогодних
@@ -288,7 +288,7 @@
                </div>
                <div class="span10">
                     <p class="pull-left">27.11.2013</p>   
-                    <p class="pull-right"><a href="">Читать полностью</a></p>
+                    <p class="pull-right date"><a class="more" href="">Читать полностью</a></p>
                </div>
                <div class="span1">
                </div> 
@@ -301,7 +301,7 @@
         <div class="row-fluid">
            <div class="span1"></div>
            <div class="span10">
-                <hr>
+                <hr class="indent-bottom30 indent-top30">
                 <h2><a href="/blog/post/new-version-november" title="">Новая версия Gmarkt</a></h2>
                 <p>
                     С ростом деловой активности и приближением новогодних
@@ -321,8 +321,8 @@
                <div class="span1">
                </div>
                <div class="span10">
-                    <p class="pull-left">27.11.2013</p>   
-                    <p class="pull-right"><a href="">Читать полностью</a></p>
+                    <p class="pull-left date">27.11.2013</p>   
+                    <p class="pull-right"><a class="more" href="">Читать полностью</a></p>
                </div>
                <div class="span1">
                </div> 
@@ -364,7 +364,7 @@
 
   <!--style.css Подвал-->
          <div class="container">
-             <div class="footer">
+             <div class="footer indent-top30">
                  <div class="row">
                      <div class="span6">
                        <p> &#169;2013 POISK58.ru
